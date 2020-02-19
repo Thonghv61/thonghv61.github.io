@@ -5,11 +5,12 @@ body{
 
 .wrapper {
     width: 502px;
-    height: 685px;
+    height: 762px;
     margin-top: 8px!important;
     margin: 0 auto;
     margin-bottom: 10px;
-    border: .1px solid black;
+    border: .1px solid #dfdfdf;
+    
 }
 .player-info img {
     width: 100px;
@@ -30,17 +31,18 @@ ul.info {
     margin: 0;
     list-style: none;
     padding-left: 10px;
+    font-size: 15px;
 }
 
 .player-title h3 {
     font-size: 17px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .player-title h3{
     background-image: url(../img/title_bg.gif);
     background-repeat: repeat-x;
     line-height: 25px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-right: 1px;
 }
 
@@ -51,7 +53,7 @@ ul.info {
     padding-bottom: 7px;
 }
 .acts .title{
-    padding-left: 10px;
+    padding-left: 5px;
     font-size: 17px;
     margin: unset;
 }
@@ -61,8 +63,9 @@ ul.info {
     margin-right: 5px;
 }
 .acts ul{
-    margin-left: 40px;
-    margin-top: unset;
+    /* margin-left: 20px; */
+    margin-top: 20px;
+    margin-bottom: 65px;
 }
 
 .post .post-contain{
@@ -71,11 +74,13 @@ ul.info {
     padding: -2px;
     padding: 2px;
     margin-left: 3px;
-    /* margin-bottom: 50px; */
     position: relative;
+    font-size: 15px;
+    height: 44px;
 }
 .post-contain p {
     margin: 3px;
+    margin-left: 20px;
 }
 
 
@@ -85,26 +90,49 @@ ul.info {
     content: "";
     width: 0;
     height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 15px solid #ECECEC;
+    border-left: 13.5px solid transparent;
+    border-right: 13.5px solid transparent;
+    border-top: 12px solid #ECECEC;
     top: 100%;
-    left: 10%;
+    left:19px;
     
 }
 .post .post-cmt {
-    margin-left: 88px;
+    margin-left: 51px;
     margin-top: 1px;
     margin-bottom: 5px;
+    font-size: 13px;
 }
 
 .comment h4{
     text-align: center;font-size: 17px;
     font-weight: bold;
+    margin: unset;
+    margin-top: 29px;
 }
 
 textarea {
-    max-width: 260px;
+    /* max-width: 380px; */
     /* max-height: 70px; */
-    height: 60px;
-    }
+    max-height: 84px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 370px;
+    
+}
+
+.acts {
+    margin-top: 20px;
+}
+.post-cmt a{
+    text-decoration: none;
+}
+.table {
+    font-size: 15px;
+    width: 100%;
+}
+input[type="text"] {
+    width: 142px;
+    height: 17px;
+    padding: 0;
+    margin: 0;
+}

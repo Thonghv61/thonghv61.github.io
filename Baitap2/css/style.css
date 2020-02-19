@@ -21,9 +21,6 @@ body{
     width: 50%;
     /* height: auto; */
 }
-.block-content{
-    display: flex;
-}
 
 .content-left .title {
     margin-top: 37px;
@@ -34,10 +31,13 @@ body{
     max-width: 200;
     max-height: 100px;
     /* margin-left: 50px; */
+    float: left;
+    padding-right: 25px;
 }
 
 .block-content-right {
-    margin-left: 25px;
+    margin-left: 0px;
+    margin-left: 0;
 }
 .block-content-right h4{
     margin: 0;
@@ -100,7 +100,7 @@ body{
     margin-bottom: 10px;
 }
 .content-2 li{
-    list-style: none;
+    text-decoration: underline;
 }
 
 .content-2 li::after{
@@ -135,7 +135,7 @@ body{
 }
 
 .card img {
-        margin-top: 100px;
+        margin-top: 70px;
 }
 .card{
     text-align: center;
@@ -161,4 +161,15 @@ body{
     clear: both;
     height: 0;
     visibility: hidden;
+}
+.block img{
+    padding-top: 25px;
+    border-top: 1px solid #353439;
+}
+
+.block-content-right {
+    /* margin-left: 21px; */
+    /* float: right; */
+    /* float: left; */
+    padding-right: 14px;
 }
