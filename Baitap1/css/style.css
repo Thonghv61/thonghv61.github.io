@@ -114,9 +114,9 @@ ul.info {
 textarea {
     /* max-width: 380px; */
     /* max-height: 70px; */
-    max-height: 84px;
+    height: 84px;
     font-family: 'Times New Roman', Times, serif;
-    max-width: 370px;
+    width:370px;
     
 }
 
