@@ -1,4 +1,3 @@
-# thonghv61.github.io
 # HTML - CSS
 * [Bài 1](https://thonghv61.github.io/Baitap1/)
 * [Bài 2](https://thonghv61.github.io/Baitap2/)
