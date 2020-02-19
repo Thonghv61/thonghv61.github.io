@@ -116,8 +116,10 @@ textarea {
     /* max-width: 380px; */
     /* max-height: 70px; */
     height: 84px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
     width:370px;
+    font-family: 'Times New Roman';
+    font-weight: 540;
     
 }
 
