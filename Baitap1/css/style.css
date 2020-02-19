@@ -136,3 +136,6 @@ input[type="text"] {
     padding: 0;
     margin: 0;
 }
+.player-title {
+    margin-left: 1px;
+}
