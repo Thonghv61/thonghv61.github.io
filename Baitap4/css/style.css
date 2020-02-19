@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wapper{
+    width: 363px;
+    height: auto;
+    background: #e6f3f9;
+    margin: 0 auto;
+}
+.Blogroll-blog img{
+    
+    max-width: 157px;
+    height: 82px;
+    margin: 5px;
+}
+
+.block-1 p {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.Blogroll-blog {
+    margin: 0px 10px;
+}
+
+.Blogroll-blog h3{
+    padding-top: 20px;
+}
+
+.block-1{
+    border-top: 2px solid #ffa500;
+    padding-top: 10px;
+    background-color: white;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.Blogroll-blog img{
+    border: 2px solid rgba(193, 183, 183, 0.74);
+    
+}
+.blog-2 {
+    background: #faf0bf;
+}
+.blog-2 ul {
+    
+    margin: 0;
+    padding: 0;
+}
+.blog-2 li {
+    color: #0a6395;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+    list-style: none;
+    padding-bottom: 5px;
+}
+.blog-2 li b{
+    margin: 10px;
+}
+
+.Heroscopes-blog {
+    margin: 0px 10px;
+}
+
+.block-3{
+    background: white;
+    display: flex;
+    border-top: 2px solid #ffa500;
+}
+.block-3 img {
+    width: 100px;
+    height: 90px;
+    margin: 20px;
+}
+.block-3 p{
+    font-size: 12px;
+    width: 177px;
+    margin-top: 25px;
+}
+.block-3 img{
+    width: 92px;
+    float: right;
+    font-size: 12px;
+}
+.block-4{
+    background: #f4f4ec;
+    /* padding: 5px; */
+    display: flex;
+}
+.block-4 p {
+    margin: 0;
+    font-size: 12px;   
+}
+.block-4 img{
+    max-width:100px;
+    margin-left: 84px;
+    height: 67px;
+}
+.block-4 .info{
+    margin-top: 15px;
+    margin-left: 20px;  
+}
+.block-5 {
+    display: flex;
+    background: white;
+    font-size: 12px;
+    border-top: 2px solid #ffa500;
+}
+.block-5 img {
+    width: 163px;    
+}
+.block-5 b{
+    color: #0a6395;
+}
+.block-5 p{
+    padding: 20px;
+}
+
+.info a{
+    color: #0a6395;
+}
+.Get-news-blog {
+    margin: 0px 10px;
+}
+
+.Competitions-blog{
+    margin:0px 10px;
+}
+.Competitions-blog h4{
+    border-top: 1px solid #cccccc;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.Competitions-blog a {
+    text-decoration: none;
+    color: #0a6395;
+    font-size: 12px;
+    list-style: none;
+}
+.Competitions-blog li {
+    list-style: none;
+}
+.Competitions-blog ul {
+    border: 1px solid #cccccc;
+    padding: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background: white;
+    margin-top: 2px;
+}
+h3 {
+    margin: 0px;
+    font-size: 16px;
+}
