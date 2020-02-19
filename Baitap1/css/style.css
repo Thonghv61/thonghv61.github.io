@@ -102,3 +102,9 @@ ul.info {
     text-align: center;font-size: 17px;
     font-weight: bold;
 }
+
+textarea {
+    max-width: 260px;
+    /* max-height: 70px; */
+    height: 60px;
+    }
