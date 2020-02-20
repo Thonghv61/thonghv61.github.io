@@ -1,16 +1,20 @@
+@font-face{
+    src: url(../font/TIMESR.ttf);
+    font-family: times;
+
+}
+
 body{
     margin: 0px;
     padding: 0px;
 }
-
 .wrapper {
     width: 502px;
     height: 762px;
     margin-top: 8px!important;
     margin: 0 auto;
     margin-bottom: 10px;
-    border: .1px solid #dfdfdf;
-    
+    border: .1px solid #dfdfdf;  
 }
 .player-info img {
     width: 100px;
@@ -33,7 +37,6 @@ ul.info {
     padding-left: 10px;
     font-size: 15px;
 }
-
 .player-title h3 {
     font-size: 17px;
     padding-left: 5px;
@@ -45,7 +48,6 @@ ul.info {
     margin-top: 0px;
     margin-right: 1px;
 }
-
 .acts li{
     list-style: none;
     font-size: 15px;
@@ -58,17 +60,14 @@ ul.info {
     margin: unset;
 }
 .acts li::before{
-
     content: url(../img/star.png);
     margin-right: 5px;
 }
 .acts ul{
-    /* margin-left: 20px; */
     margin-top: 20px;
     margin-bottom: 65px;
     margin-right: 30px;
 }
-
 .post .post-contain{
     background-color: #ececec;
     max-width: 491px;
@@ -83,9 +82,6 @@ ul.info {
     margin: 3px;
     margin-left: 20px;
 }
-
-
-
 .post .post-contain::after{
     position: absolute;
     content: "";
@@ -95,8 +91,7 @@ ul.info {
     border-right: 13.5px solid transparent;
     border-top: 12px solid #ECECEC;
     top: 100%;
-    left:19px;
-    
+    left:19px;  
 }
 .post .post-cmt {
     margin-left: 51px;
@@ -104,25 +99,18 @@ ul.info {
     margin-bottom: 5px;
     font-size: 13px;
 }
-
 .comment h4{
     text-align: center;font-size: 17px;
     font-weight: bold;
     margin: unset;
     margin-top: 29px;
 }
-
 textarea {
-    /* max-width: 380px; */
-    /* max-height: 70px; */
     height: 84px;
-    /* font-family: 'Times New Roman', Times, serif; */
     width:370px;
     font-family: 'Times New Roman';
     font-weight: 540;
-    
 }
-
 .acts {
     margin-top: 20px;
 }

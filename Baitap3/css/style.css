@@ -6,7 +6,7 @@ body {
 
 .header{
     background-image: url(../img/bgheader.png);
-    height: 300px;
+    height: 255px;
     background-size: 100%;
     position: relative;
 }
@@ -28,37 +28,38 @@ body {
     float: left;
     /* padding-left: 30px;
     padding-right: 30px; */
-    width: 146px;
+    width: 140px;
     text-align: center;
+    padding-right: 3px;
 }
 .nav ul a {
     text-decoration: none;
 }
 .nav ul img {
     width: 136px;
-    height: 90px;
+    height: 85px;
 }
 .nav {
     position: absolute;
-    top: 210px;
+    top: 183px;
     margin-left: 30px;
 }
 .bg img{
-    margin-top: 75px;
-    margin-left: 72px;
+    margin-top: 80px;
+    margin-left: 70px;
 }
 .main {
-    margin-top: 100px;
+    margin-top: 110px;
     color: white;
     display: flex;
 }
 
 .main .sidebar{
-    width: 400px;
-    margin-left: 75px;
-    width: 250px;
-    background: #1f1f1f;
-    height: 430px;
+      /* width: 400px; */
+      margin-left: 75px;
+      width: 233px;
+      background: #1f1f1f;
+      height: 360px;
 }
 .block-1 {
     /* margin: 20px; */
@@ -70,20 +71,27 @@ body {
 
 .block-2 {
     /* margin: 20px; */
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 20px;
     margin-right: 20px;
     border-top: 1px solid #2c2c2c;
 }
 .block-1 p{
-    color: #505959;
+    color: #595959;
+    text-align: center;
+    padding: -8px 33px;
+    font-size: 13px;
+    padding: 8px 32;
+
+    margin: 28px 0;
 }
 .block-2 ul li a{
-    color: #505959;
+    color: #595959;
 }
 .block-2 ul {
     list-style: none;
-    line-height: 25px;
+    line-height: 13px;
+    font-size: 13px;
 }
 
 .block-2 li:before {
@@ -101,40 +109,51 @@ body {
 
 .content {
     width: 400px;
-    margin-left: 40px;
+    margin-left: 38px;
 }
 
 .more{
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 18px;
+    margin-left: 16px;
+    width: 115px;
+    height: 20px;
 }
 img.bner {
     margin-top: 40px;
+    width: 392px;
+    height: 122px;
 }
 .block-3 p{
-    margin-left: 20px;
+    margin-left: 18px;
     color: #505959;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     border-bottom: 1px dotted #323232;
+    font-size: 11px;
+    margin-bottom: 17px;
 }
 .block-3 a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 .click-web::before {
     content: url(../img/arr_1.gif);
-    padding: 5px;
+    padding-right: 5px;
 }
 
 .footer{
-    margin-top: 25px;
-    margin-left: 82px;
-    padding: 20px;
+    margin-top: 78px;
+    margin-left: 76px;
+    /* padding: 20px; */
     border-top: 1px dotted #323232;
     width: 640px;
     color: #505959;
     font-family: sans-serif;
+    padding-left: 7px;
+    padding-top: 25px;
+    padding-bottom: 65px;
+    width: 660px;
+    font-size: 10px;
 }
 
 .footer a{
