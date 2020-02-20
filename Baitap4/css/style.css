@@ -7,33 +7,36 @@ body{
     width: 363px;
     height: auto;
     background: #e6f3f9;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 .Blogroll-blog img{
     
     max-width: 157px;
     height: 82px;
-    margin: 5px;
+    margin: 5px 5px 5px 8px;
 }
 
 .block-1 p {
     margin: 0;
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 12px;
-    margin: 5px;
+    /* margin: 5px; */
+    margin-top: 8px;
+    margin-right: 62px;
 }
 
 .Blogroll-blog {
-    margin: 0px 10px;
+    margin: 0px 11px;
 }
 
 .Blogroll-blog h3{
-    padding-top: 20px;
+    padding-top: 6px;
+    padding-left: 1px;
 }
 
 .block-1{
-    border-top: 2px solid #ffa500;
-    padding-top: 10px;
+    border-top: 4px solid #ffa500;
+    padding-top: 2px;
     background-color: white;
     display: flex;
     padding-bottom: 10px;
@@ -57,71 +60,113 @@ body{
     padding-bottom: 2px;
     list-style: none;
     padding-bottom: 5px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
 }
 .blog-2 li b{
-    margin: 10px;
+    margin-left: 10px;
 }
 
 .Heroscopes-blog {
-    margin: 0px 10px;
+    margin: 0px 11px;
+}
+.Heroscopes-blog h3{
+    margin-top: 4px;
+    margin-left: 1px;
 }
 
 .block-3{
     background: white;
     display: flex;
-    border-top: 2px solid #ffa500;
+    border-top: 4px solid #ffa500;
+    height: 166px;
 }
 .block-3 img {
-    width: 100px;
-    height: 90px;
-    margin: 20px;
+    width: 120px;
+    height: 100px;
+    
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .block-3 p{
-    font-size: 12px;
-    width: 177px;
-    margin-top: 25px;
+    font-size: 11px;
+    width: 167px;
+    margin-top: 12px;
+}
+.block-3 .day{
+    color: #595959;
+}
+
+.block-3 span{
+    font-size: 11px;
+    color: #595959;
+    line-height: 6px;
+
 }
 .block-3 img{
-    width: 92px;
+    width: 100px;
     float: right;
     font-size: 12px;
 }
+
+.block-3 b{
+    font-size: 15px;
+}
+.block-3-content {
+    margin-top: 24px;
+}
+
+.block-3-content a {
+    text-decoration: underline;
+    color: #0a6395;
+}
+
 .block-4{
     background: #f4f4ec;
     /* padding: 5px; */
     display: flex;
+    height: 47px;
 }
 .block-4 p {
     margin: 0;
-    font-size: 12px;   
+    font-size: 11px;   
 }
 .block-4 img{
-    max-width:100px;
-    margin-left: 84px;
-    height: 67px;
+    max-width: 100px;
+    margin-left: 122px;
+    height: 47px;
 }
 .block-4 .info{
-    margin-top: 15px;
-    margin-left: 20px;  
+    margin-top: 14px;
+    margin-left: 24px; 
+    line-height: 11px;
+
 }
 .block-5 {
     display: flex;
     background: white;
     font-size: 12px;
-    border-top: 2px solid #ffa500;
+    border-top: 4px solid #ffa500;
+    height: 113px;
+    width: 100%;
+
 }
 .block-5 img {
-    width: 163px;    
+    height: -webkit-fill-available;    
 }
 .block-5 b{
     color: #0a6395;
 }
 .block-5 p{
-    padding: 20px;
+
+    padding-top: 12px;
+    padding-left: 23px;
 }
 
 .info a{
     color: #0a6395;
+    font-size: 11px;
 }
 .Get-news-blog {
     margin: 0px 10px;
@@ -132,9 +177,12 @@ body{
     padding-bottom: 10px;
 }
 .Competitions-blog h4{
-    border-top: 1px solid #cccccc;
-    padding-top: 10px;
-    margin: 0px;
+    border-top: 1px solid #595959;
+    padding-top: 6px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+
+
 }
 
 .Competitions-blog a {
@@ -147,15 +195,24 @@ body{
     list-style: none;
 }
 .Competitions-blog ul {
-    border: 1px solid #cccccc;
+    border: 1px solid #595959;
     padding: 0;
-    padding-left: 10px;
+    padding-left: 8px;
     padding-bottom: 10px;
     background: white;
-    margin-top: 2px;
+    margin-top: 12px;
+    padding-top: 12px;
+    color: #4d5d73;
 }
 h3 {
     margin: 0px;
+    font-size: 16px;
+}
+b.color {
+    color: #0a6395;
+}
+
+.Get-news-blog h3 {
     font-size: 16px;
 }
 
