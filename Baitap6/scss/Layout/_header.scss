@@ -1,5 +1,5 @@
 .header{
-    background-image: url(./img/bg-1.jpg);
+    background-image: url(../img/bg-1.jpg);
     width: 860px;
     height: 630px;
     h1 {
@@ -24,7 +24,7 @@
 }
 
 .video{
-    background-image: url(../../img/bg-2.jpg);
+    background-image: url(../img/bg-2.jpg);
     height: 840px;
     h1{
         // background-image: url(../../img/bg-title.png);
@@ -73,7 +73,7 @@
 }
 
 .Product{
-    background-image: url(../../img/bg-product.png);
+    background-image: url(../img/bg-product.png);
     display: grid;
     grid-template-columns: auto auto auto;
     overflow-x: hidden;
@@ -161,11 +161,11 @@
         
 }
 .help{
-    background-image: url(../../img/bg-4.png);
+    background-image: url(../img/bg-4.png);
     .content{
         color: white;
         font-size: 13px;
-       background-image: url(../../img/bg-3.png);
+       background-image: url(../img/bg-3.png);
        margin: 0 30px;
        color: #097680;
     }
@@ -180,13 +180,13 @@
         font-size: 30px;
         margin-top: 70px;
         margin-bottom: 42px;
-        background-image: url(../../img/btn.png);
+        background-image: url(../img/btn.png);
         background-size: contain;
         border: unset;
     }
 }
 .Introduction{
-    background-image: url(../../img/bg-4.png);
+    background-image: url(../img/bg-4.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;

@@ -3,7 +3,7 @@
   padding: 0; }
 
 .header {
-  background-image: url(./img/bg-1.jpg);
+  background-image: url(../img/bg-1.jpg);
   width: 860px;
   height: 630px; }
   .header h1 {
@@ -23,7 +23,7 @@
       font-size: 30px; }
 
 .video {
-  background-image: url(../../img/bg-2.jpg);
+  background-image: url(../img/bg-2.jpg);
   height: 840px; }
   .video h1 {
     color: #e4e622;
@@ -56,7 +56,7 @@
     padding-top: unset; }
 
 .Product {
-  background-image: url(../../img/bg-product.png);
+  background-image: url(../img/bg-product.png);
   display: grid;
   grid-template-columns: auto auto auto;
   overflow-x: hidden; }
@@ -122,11 +122,11 @@
       font-size: 32px; }
 
 .help {
-  background-image: url(../../img/bg-4.png); }
+  background-image: url(../img/bg-4.png); }
   .help .content {
     color: white;
     font-size: 13px;
-    background-image: url(../../img/bg-3.png);
+    background-image: url(../img/bg-3.png);
     margin: 0 30px;
     color: #097680; }
   .help .title {
@@ -139,12 +139,12 @@
     font-size: 30px;
     margin-top: 70px;
     margin-bottom: 42px;
-    background-image: url(../../img/btn.png);
+    background-image: url(../img/btn.png);
     background-size: contain;
     border: unset; }
 
 .Introduction {
-  background-image: url(../../img/bg-4.png);
+  background-image: url(../img/bg-4.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative; }
