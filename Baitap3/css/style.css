@@ -78,7 +78,7 @@ body {
 }
 .block-1 p{
     color: #595959;
-    text-align: center;
+    text-align: left;
     padding: -8px 33px;
     font-size: 13px;
     padding: 8px 32;
@@ -130,6 +130,7 @@ img.bner {
     border-bottom: 1px dotted #323232;
     font-size: 11px;
     margin-bottom: 17px;
+    width: 90%;
 }
 .block-3 a {
     color: white;
