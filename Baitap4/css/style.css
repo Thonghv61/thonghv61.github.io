@@ -95,7 +95,10 @@ body{
     margin-top: 12px;
 }
 .block-3 .day{
+
     color: #595959;
+    position: absolute;
+    margin-top: 2px;
 }
 
 .block-3 span{
@@ -157,11 +160,14 @@ body{
 }
 .block-5 b{
     color: #0a6395;
+    line-height: 30px;
+    font-weight: unset;
 }
 .block-5 p{
 
     padding-top: 12px;
     padding-left: 23px;
+        
 }
 
 .info a{
@@ -169,7 +175,9 @@ body{
     font-size: 11px;
 }
 .Get-news-blog {
-    margin: 0px 10px;
+ 
+    margin: 20px 0 0 10px;
+
 }
 
 .Competitions-blog{
@@ -187,9 +195,10 @@ body{
 
 .Competitions-blog a {
     text-decoration: none;
-    color: #0a6395;
+    color: #4d5d73;
     font-size: 12px;
     list-style: none;
+
 }
 .Competitions-blog li {
     list-style: none;
@@ -200,7 +209,7 @@ body{
     padding-left: 8px;
     padding-bottom: 10px;
     background: white;
-    margin-top: 12px;
+    margin-top: 0px;
     padding-top: 12px;
     color: #4d5d73;
 }
