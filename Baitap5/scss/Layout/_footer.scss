@@ -1,0 +1,25 @@
+.footer {
+    
+        background-color: #8b1a20;
+        height: 53px;
+        line-height: 53px;
+        position: absolute;
+        width: 100%;
+        top: 5708px;
+    
+    ul {
+        padding-left: 34px;
+        display: flex;
+        li {
+            
+            list-style: none;
+            padding-right: 32px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            padding-right: 9px;
+            font-size: 10.5px;
+        }
+    }
+}

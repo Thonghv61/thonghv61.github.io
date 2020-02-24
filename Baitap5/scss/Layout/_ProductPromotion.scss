@@ -1,0 +1,103 @@
+.product-1 {
+    position: relative;
+    top: 545px;
+    left: 15px;
+    height: 292px;
+    width: 47.5%;
+    border: 1px solid #b98030;
+    margin-bottom: 12px;
+    float: left;
+    margin-left: 12px;
+    overflow-x: hidden;
+    
+
+    .wapper__product {
+        
+        border: 4px solid white;
+        width: 98.1%;
+        height: 283px;
+        background: #fff8e1;
+        .Product-Info {
+            position: relative;
+            top: 90px;
+            left: 214px;
+            p {
+                font-size: 26px;
+                line-height: 20px;
+
+            }
+            h2{
+                font-size: 45px;
+                color: red;
+                line-height: 60px;
+            }
+            span {
+                color: #785a46;
+                font-size: 24px;
+                line-height: 14px;
+                width: 219px;
+                text-align: right;
+                margin-right: 10px;
+                margin-left: 141px;
+            }
+        }
+    }
+    .pic_product{
+        top: 60px;
+        left: 25px;
+        padding: 10px;
+        border: 1px solid #b80209;
+        background: white;
+        
+    }
+    .nameProduct{
+        position: absolute;
+        line-height: 40px;
+        margin-left: 208px;
+        margin-left: 96px;
+        color: white;
+        font-size: 24px;
+
+    }
+    .tagProduct{
+        position: absolute;
+        line-height: 25px;
+        margin-left: 9px;
+        background-image: url(../../images/bg-product-title.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 65px;
+        height: 22px;
+        margin-top: 9px;
+        padding-left: 9px;
+        padding-right: 4px;
+        color: white;
+    }
+
+    .product-header{
+        img{
+            position: absolute;
+            max-width: 439px;
+            margin: unset;
+        }
+        
+    }
+    .titel-product{
+        font-size: 18px;
+        color: white;
+        position: relative;
+        right: 30px;
+        left: 214px;
+        line-height: 28px;
+        top: 55px;
+        .titel-product-content {
+            position: absolutea;
+            position: absolute;
+            z-index: 10;
+            text-align: center;
+            width: 219px;
+        }
+        
+    }
+   
+}

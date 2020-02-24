@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body:before {
+  display: none; }
+
+.headerIn {
+  display: flex;
+  align-items: center;
+  margin: 0.5625em 1.8125em; }
+  .headerIn .header__phone {
+    position: absolute;
+    right: 1.8125em; }
+
+.header__title h1 {
+  height: 32px; }
+
+.header {
+  border-bottom: 0.625em solid #b98030; }
+
+.main {
+  background-image: url(../../images/bg.png);
+  height: 5920px;
+  /* padding: 18px 30px 34px 0; */
+  padding-top: 18px;
+  padding-right: 34px;
+  padding-left: 30px; }
+  .main .block-1 {
+    background-image: url(../../images/bg-1.png);
+    height: 1165px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .main img {
+    position: absolute; }
+  .main .item1 {
+    top: 25px;
+    right: 2px; }
+  .main .item2 {
+    top: 40px;
+    left: 70px; }
+  .main .block-1-left .item3 {
+    position: absolute;
+    top: 97px;
+    left: 70px; }
+  .main .block-1-left h1 {
+    position: absolute;
+    top: 186px;
+    left: 100px; }
+  .main .block-1-left .item4 {
+    position: absolute;
+    top: 406px;
+    left: 100px; }
+  .main .block-1-left span {
+    position: absolute;
+    top: 518px;
+    left: 100px; }
+
+.footer {
+  background-color: #8b1a20;
+  height: 53px;
+  line-height: 53px; }
+  .footer ul {
+    display: flex; }
+    .footer ul li {
+      list-style: none; }
+    .footer ul a {
+      text-decoration: none;
+      color: white;
+      padding-right: 9px;
+      font-size: 10.5px; }
+
+.product-1 {
+  position: relative;
+  top: 545px;
+  left: 15px;
+  height: 292px;
+  width: 46.5%;
+  border: 1px solid #b98030;
+  margin-bottom: 12px;
+  float: left;
+  margin-left: 12px;
+  overflow-x: hidden; }
+  .product-1 .wapper__product {
+    border: 4px solid white;
+    width: 98.5%;
+    height: 283px;
+    background: #fff8e1; }
+    .product-1 .wapper__product .Product-Info {
+      position: relative;
+      top: 90px;
+      left: 214px; }
+      .product-1 .wapper__product .Product-Info p {
+        font-size: 26px;
+        line-height: 20px; }
+      .product-1 .wapper__product .Product-Info h2 {
+        font-size: 45px;
+        color: red;
+        line-height: 60px; }
+      .product-1 .wapper__product .Product-Info span {
+        color: #785a46;
+        font-size: 24px;
+        line-height: 14px;
+        width: 219px;
+        text-align: right;
+        margin-right: 10px;
+        margin-left: 141px; }
+  .product-1 .pic_product {
+    top: 60px;
+    left: 25px;
+    padding: 10px;
+    border: 1px solid #b80209;
+    background: white; }
+  .product-1 .nameProduct {
+    position: absolute;
+    line-height: 40px;
+    margin-left: 208px;
+    margin-left: 96px;
+    color: white;
+    font-size: 24px; }
+  .product-1 .tagProduct {
+    position: absolute;
+    line-height: 25px;
+    margin-left: 9px;
+    background-image: url(../../images/bg-product-title.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 65px;
+    height: 22px;
+    margin-top: 9px;
+    padding-left: 9px;
+    padding-right: 4px;
+    color: white; }
+  .product-1 .product-header img {
+    position: absolute;
+    max-width: 442px;
+    margin: 4px; }
+  .product-1 .titel-product {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    right: 30px;
+    left: 214px;
+    line-height: 28px;
+    top: 55px; }
+    .product-1 .titel-product .titel-product-content {
+      position: absolutea;
+      position: absolute;
+      z-index: 10;
+      text-align: center;
+      width: 219px; }
+
+.step-by-step {
+  background-image: url(../../images/bg-step-by-step.png);
+  /* width: 100%; */
+  height: 1444px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 25px;
+  position: relative; }
+  .step-by-step .wapper__step-by-step img {
+    margin-left: 44px;
+    margin-top: 30px; }
+  .step-by-step .wapper__step-by-step .step-1 {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 922px;
+    height: 400px;
+    background-image: url(../../images/bg-step.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .step-by-step .wapper__step-by-step .step-1 img {
+      float: left; }
+    .step-by-step .wapper__step-by-step .step-1 .content {
+      margin-top: 30px;
+      margin-left: 30px; }
+      .step-by-step .wapper__step-by-step .step-1 .content h1 {
+        color: red;
+        padding-bottom: 34px; }
+  .step-by-step .wapper__step-by-step .step-2 {
+    position: absolute;
+    top: 617px;
+    left: 20px;
+    width: 922px;
+    height: 400px;
+    background-image: url(../../images/bg-step-2.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .step-by-step .wapper__step-by-step .step-2 .content {
+      margin-left: 476px;
+      margin-top: 30px; }
+  .step-by-step .wapper__step-by-step .step-3 {
+    position: absolute;
+    top: 415px;
+    left: 0px;
+    width: 922px;
+    height: 400px;
+    background-image: url(../../images/bg-step-3.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .step-by-step .wapper__step-by-step .step-3 .content {
+      margin-top: 30px;
+      margin-left: 30px; }
+      .step-by-step .wapper__step-by-step .step-3 .content h1 {
+        color: #5f0e0f;
+        padding-bottom: 34px; }
+
+.feedback {
+  background-image: url(../../images/bg-feedback.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%;
+  height: 9.2%;
+  position: relative; }
+  .feedback .content h2 {
+    position: absolute;
+    top: 25px;
+    right: 70px;
+    color: red;
+    font-size: 30px; }
+  .feedback .content p {
+    position: absolute;
+    /* bottom: 10px; */
+    top: 490px;
+    text-align: centerce;
+    text-align: center;
+    width: 100%;
+    color: #56698a;
+    size: 24px;
+    font-size: 24px; }
+
+.ProductMango {
+  background-image: url(../../images/bg-Product-Mango.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 12%;
+  position: relative; }
+  .ProductMango .RowProduct {
+    width: 100%;
+    height: auto; }
+    .ProductMango .RowProduct .Product-slogan .notes {
+      /* margin: 93px; */
+      margin-top: 150px;
+      margin-left: 30px; }
+    .ProductMango .RowProduct .Product-slogan h2 {
+      color: #ff9638;
+      padding-top: 422px;
+      padding-left: 20px; }
+    .ProductMango .RowProduct .Product-slogan li {
+      list-style: none; }
+      .ProductMango .RowProduct .Product-slogan li sup {
+        margin-left: 5px; }
+    .ProductMango .RowProduct .Product-slogan .list-top li {
+      float: left;
+      margin-right: 40px; }
+      .ProductMango .RowProduct .Product-slogan .list-top li a {
+        color: #aa1111;
+        font-size: 20px; }
+      .ProductMango .RowProduct .Product-slogan .list-top li span {
+        font-size: 40px;
+        color: #bc8436; }
+    .ProductMango .RowProduct .Product-slogan .list-botton li {
+      float: left;
+      margin-right: 33px; }
+      .ProductMango .RowProduct .Product-slogan .list-botton li a {
+        color: #aa1111;
+        font-size: 20px; }
+      .ProductMango .RowProduct .Product-slogan .list-botton li span {
+        font-size: 40px;
+        color: #bc8436; }
+    .ProductMango .RowProduct .Product-slogan .slogan-list {
+      width: 850px;
+      padding-left: 25px; }
+  .ProductMango .Product-sales {
+    position: absolute;
+    width: 218px;
+    height: 164px;
+    top: 170px;
+    left: 20px; }
+  .ProductMango .Product-sales-1 {
+    position: absolute;
+    width: 218px;
+    height: 164px;
+    top: 170px;
+    left: 256px; }
+  .ProductMango .ProductImg {
+    width: 160px;
+    height: 150px;
+    border: unset; }
+  .ProductMango img {
+    position: absolute;
+    width: 225px;
+    height: 165px;
+    border: 4px solid white; }
+  .ProductMango .sale {
+    position: absolute;
+    z-index: 10;
+    width: 117px;
+    height: 117px;
+    border: unset;
+    top: top;
+    top: -52px;
+    left: -7px; }
+  .ProductMango .sales-title {
+    position: absolute;
+    margin-top: 192px;
+    text-align: center;
+    width: 100%;
+    font-size: 18px; }
+  .ProductMango h1 {
+    position: absolute;
+    margin-top: 170px;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    color: red; }
+  .ProductMango .Gift .Product-Gift {
+    width: 160px;
+    height: 150px;
+    top: 170px;
+    left: 590px;
+    position: absolute; }
+    .ProductMango .Gift .Product-Gift .icon-sales {
+      width: 90px;
+      height: 90px;
+      position: absolute;
+      z-index: 10;
+      border: unset;
+      top: -36px;
+      left: -47px; }
+  .ProductMango .Gift .Product-Gift-1 {
+    width: 160px;
+    height: 150px;
+    top: 170px;
+    left: 759px;
+    position: absolute; }
+  .ProductMango .Gift .content {
+    position: absolute;
+    width: 300px;
+    top: 326px;
+    right: 80px;
+    font-size: 15px; }
+    .ProductMango .Gift .content p {
+      font-size: 15px;
+      text-align: left; }
+
+.ProductSeason {
+  width: 100%;
+  background-image: url(../../images/ProductSeason.png);
+  background-repeat: no-repeat;
+  height: 28%; }
+  .ProductSeason .attention {
+    margin-top: 1290px;
+    position: absolute;
+    /* width: 100%; */
+    text-align: center;
+    background: #b8262d;
+    margin-left: 27px;
+    width: 919px;
+    padding: 30px 0 30px 0;
+    color: white; }
+    .ProductSeason .attention h1 {
+      text-decoration: underline; }
+  .ProductSeason .cown {
+    position: absolute;
+    top: 5540px;
+    right: 10;
+    text-align: right;
+    right: 200px; }
+  .ProductSeason .RowHeader {
+    display: flex; }
+  .ProductSeason .titel-img {
+    margin-left: 115px;
+    margin-top: 6px; }
+  .ProductSeason .titel {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 22px;
+    text-shadow: 4px 4px 17px #0b5ea2;
+    color: #492703; }
+  .ProductSeason .row {
+    width: 100%; }
+  .ProductSeason .product-1 {
+    position: relative;
+    top: 60px;
+    height: 291px;
+    width: 452px;
+    /* width: 72.5%; */
+    border: 1px solid #b98030;
+    margin-bottom: 12px;
+    float: left;
+    margin-left: 12px;
+    overflow-x: hidden; }
+    .ProductSeason .product-1 .icon-sales-3 {
+      background-image: url(../../images/icon-sales-3.png);
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%; }
+
+.footer {
+  background-color: #8b1a20;
+  height: 53px;
+  line-height: 53px; }
+  .footer ul {
+    display: flex; }
+    .footer ul li {
+      list-style: none; }
+    .footer ul a {
+      text-decoration: none;
+      color: white;
+      padding-right: 9px;
+      font-size: 10.5px; }
+
+/*# sourceMappingURL=style.css.map */

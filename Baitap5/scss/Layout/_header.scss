@@ -1,10 +1,14 @@
+body:before{
+    display: none;
+}
+
 .headerIn{
     display: flex;
     align-items: center;
-    margin: 10px 25px;
+    margin: 0.5625em 1.8125em;
     .header__phone {
         position: absolute;
-        right: 27px;
+        right: 1.8125em;
     }
 }
 .header__title {
@@ -13,75 +17,69 @@
     }
 }
 .header {
-    border-bottom: 9px solid #b98030;
+    border-bottom: 0.625em solid #b98030;
 }
 
 .main{
     background-image: url(../../images/bg.png);
-    height:3000px;
-    padding: 20px 25px;
-    position: relative;
+    height: 5690px;
+    // height: 5920px;
+    /* padding: 18px 30px 34px 0; */
+    padding-top: 18px;
+    padding-right: 34px;
+    padding-left: 30px;
     
     .block-1{
         background-image: url(../../images/bg-1.png);
-        height: 1100px;
+        height: 1165px;
         width: 100%;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
+        position: relative;
+        .row {
+            width: 98%;
+        }
     }
     img{
         position: absolute;
         
     }
     .item1{
-        top: 50px;
-        right: 2px;
+        top: 6px;
+        right: -33px;
+    
     }
     .item2 {
-        top: 55px;
-        left: 70px;
+        top: 20px;
+        left: 18px;
+        z-index: 10;
     }
     .block-1-left{
+        
         .item3{
             position: absolute;
-            top: 138px;
-            left: 70px;
+            top: 97px;
+            left: -6px;
+            z-index: 10;
         }
         h1{
             position: absolute;
-            top: 250px;
-            left: 100px;
+            top: 186px;
+            left: 25px;
+            z-index: 10;
         }
         .item4{
             position: absolute;
-            top: 510px;
-            left: 100px;
+            top: 408px;
+            left: 35px;
+            z-index: 10;
         }
         span{
             position: absolute;
-            top: 620px;
-            left: 100px;
+            top: 512px;
+            left: 24px;
+            z-index: 10;
         }
     }
-    .product-1 {
-        position: relative;
-        top: 660px;
-        height: 290px;
-        width: 450px;
-        border: 1px solid #b98030;
-        .pic_product{
-            top: 60px;
-            left: 25px;
-            padding: 10px;
-            border: 1px solid #b80209;
-            background: white;
-            
-        }
-        .titel-product {
-            position: absolute;
-            top: 60px;
-            right: 30p;
-            left: 221px;
-        }
-    }
+    
 }

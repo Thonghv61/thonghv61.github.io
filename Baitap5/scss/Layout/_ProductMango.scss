@@ -1,0 +1,158 @@
+.ProductMango{
+    background-image: url(../../images/bg-Product-Mango.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 12.5%;
+    position: relative;
+    .RowProduct {
+        width: 100%;
+        height: auto;
+        .Product-slogan{
+            .notes {
+                /* margin: 93px; */
+                margin-top: 150px;
+                margin-left: 30px;
+            }
+            h2 {
+                color: #ff9638;
+                padding-top: 422px;
+                padding-left: 20px;
+            }  
+            li {
+                list-style: none;
+                sup {
+                    margin-left: 5px;
+                }
+                }
+            .list-top li{
+                float: left;
+                margin-right: 40px;
+                a { 
+                    color: #aa1111;
+                    font-size: 20px;
+                }
+                span {
+                    font-size: 40px;
+                    color: #bc8436;
+                }
+            }
+            .list-botton li {
+                float: left;
+                margin-right: 33px;
+                a { 
+                    color: #aa1111;
+                    font-size: 20px;
+                }
+                span {
+                    font-size: 40px;
+                    color: #bc8436;
+                }
+            }
+            .slogan-list {
+                width: 850px;
+                padding-left: 25px;
+            }
+        }
+    }
+    .Product-sales {
+        position: absolute;
+        width: 218px;
+        height: 164px;
+        top: 170px;
+        left: 20px;
+    }
+    .Product-sales-1{
+        position: absolute;
+        width: 218px;
+        height: 164px;
+        top: 170px;
+        left: 256px;
+
+    }
+
+    .ProductImg{
+        width: 160px;
+        height: 150px;
+        border: unset;
+    }
+    img {
+        position: absolute;
+        // width: 100%;
+        // height: 100%;
+        width: 225px;
+        height: 165px;
+        border: 4px solid white;
+    }
+    .sale {
+        position: absolute;
+        z-index: 10;
+        width: 117px;
+        height: 117px;
+        border: unset;
+        top: top;
+        top: -52px;
+        left: -7px
+    }
+    .sales-title{
+        position: absolute;
+        margin-top: 192px;
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+
+    }
+    p{
+        
+       
+    }
+    h1{
+        position: absolute;
+        margin-top: 170px;
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        color: red;
+    }
+    .Gift{
+        .Product-Gift{
+            width: 160px;
+            height: 150px;
+            top: 170px;
+            left: 590px;
+            position: absolute;
+            .icon-sales {
+                width: 90px;
+                height: 90px;
+                position: absolute;
+                z-index: 10;
+                border: unset;
+                top: -36px;
+                left: -47px;
+            }
+        }
+        .Product-Gift-1{
+            width: 160px;
+            height: 150px;
+            top: 170px;
+            left: 759px;
+            position: absolute;
+            
+            
+        }
+        .content {
+            position: absolute;
+            width: 300px;
+            top: 326px;
+            right: 80px;
+            font-size: 15px;
+            p{
+                font-size: 15px;
+                text-align: left;
+            }
+    
+        }
+      
+    }
+
+}

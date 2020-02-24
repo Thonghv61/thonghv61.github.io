@@ -1,0 +1,73 @@
+.step-by-step {
+    background-image: url(../../images/bg-step-by-step.png);
+    /* width: 100%; */
+    height: 1444px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+    position: relative;
+
+    .wapper__step-by-step {
+        img {
+        margin-left: 44px;
+        margin-top: 30px;
+        }
+        .step-1 {
+            position: absolute;
+            top: 200px;
+            left: 20px;
+            width: 922px;
+            height: 400px;
+            background-image: url(../../images/bg-step.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            img{
+                float: left;
+            }
+            .content {
+                margin-top: 30px;
+                margin-left: 30px;
+            
+                h1 {
+                    color: red;
+                    padding-bottom: 34px;
+                }
+            }
+        }
+
+        .step-2 {
+            position: absolute;
+            top: 617px;
+            left: 20px;
+            width: 922px;
+            height: 400px;
+            background-image: url(../../images/bg-step-2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            .content {
+                margin-left: 476px;
+                margin-top: 30px;
+            }
+        }
+        .step-3{
+            position: absolute;
+            top: 415px;
+            left: 0px;
+            width: 922px;
+            height: 400px;
+            background-image: url(../../images/bg-step-3.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            .content {
+                margin-top: 30px;
+                margin-left: 30px;
+            
+                h1 {
+                    color: #5f0e0f;
+                    padding-bottom: 34px;
+                }
+            }
+        }
+    }
+
+}

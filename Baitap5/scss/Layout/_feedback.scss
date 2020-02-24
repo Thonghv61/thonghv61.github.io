@@ -1,0 +1,98 @@
+.feedback{
+    background-image: url(../../images/bg-feedback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 10%;
+    position: relative;
+    .feedback-1 {
+        position: absolute;
+    top: 130px;
+    left: 54px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #dadacb;
+    transition: 45px;
+    transform: rotate(-8deg);
+        span {
+            border-bottom: 1px solid #d7d7d7;
+        }
+        .right {
+            margin-left: 160px;
+        }
+    }
+    .feedback-2{
+        position: absolute;
+        top: 128px;
+        left: 380px;
+        background: white;
+        padding: 20px;
+        border: 1px solid #dadacb;
+        transition: 45px;
+        transform: rotate(-3deg);
+        span {
+            border-bottom: 1px solid #d7d7d7;
+        }
+        .right {
+            margin-left: 160px;
+        }
+
+    }
+    .feedback-3{
+        position: absolute;
+    top: 258px;
+    left: 269px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #dadacb;
+    transition: 45px;
+    transform: rotate(5deg);
+        span {
+            border-bottom: 1px solid #d7d7d7;
+        }
+        .right {
+            margin-left: 175px;
+        }
+
+    }
+    .feedback-4{
+        position: absolute;
+        top: 303px;
+        left: 605px;
+        background: white;
+        padding: 20px;
+        border: 1px solid #dadacb;
+        transition: 45px;
+        transform: rotate(-5deg);
+    
+        span {
+            border-bottom: 1px solid #d7d7d7;
+        }
+        .right {
+            margin-left: 175px;
+        }
+
+    }
+
+    
+    .content {
+        h2 {
+            position: absolute;
+            top: 25px;
+            right: 70px;
+            color: red;
+            font-size: 30px;
+        }
+        p {
+            position: absolute;
+            /* bottom: 10px; */
+            top: 490px;
+            text-align: centerce;
+            text-align: center;
+            width: 100%;
+            color: #56698a;
+            size: 24px;
+            font-size: 24px;
+        }
+    }
+}

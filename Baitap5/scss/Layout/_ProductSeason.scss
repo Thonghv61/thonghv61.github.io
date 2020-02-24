@@ -1,0 +1,80 @@
+.ProductSeason {
+    width: 100%;
+    background-image: url(../../images/ProductSeason.png);
+    background-repeat: no-repeat;
+    height: 29%;
+    background-size: contain;
+    
+    .attention {
+        margin-top: 1290px;
+        position: absolute;
+        /* width: 100%; */
+        text-align: center;
+        background: #b8262d;
+        margin-left: 27px;
+        width: 919px;
+        padding: 30px 0 30px 0;
+        color: white ;
+        h1 {
+            text-decoration: underline;
+        }
+    }
+    .cown {
+        position: absolute;
+        top: 5665px;
+        right: 10;
+        text-align: right;
+        right: 207px;
+    }
+    .RowHeader{
+        display: flex;
+    }
+    .RowProduct {
+        width: 97.5%;
+    }
+    // .RowProduct{
+    //     .product-header{
+    //         img{
+    //             width: 442px;
+    //         }
+    //     }
+        
+    // }
+    .titel-img {
+        margin-left: 115px;
+        margin-top: 6px;
+    }
+    .titel {
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 22px;
+        text-shadow: 4px 4px 17px #0b5ea2;
+        color: #492703;
+    }
+    .row {
+        width: 100%;
+    }
+    .product-1{
+        position: relative;
+        top: 60px;
+        // left: -305px;
+        height: 291px;
+        width: 47.5%;
+        /* width: 72.5%; */
+        border: 1px solid #b98030;
+        margin-bottom: 12px;
+        float: left;
+        margin-left: 12px;
+        overflow-x: hidden;
+        .icon-sales-3{
+            background-image: url(../../images/icon-sales-3.png);
+            background-repeat: no-repeat;
+            width: 100px;
+            height: 100px;
+            z-index: 14;
+            position: absolute;
+            top: -1px;
+            right: -20px;
+        }
+    }
+}
