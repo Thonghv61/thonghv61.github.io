@@ -3,7 +3,7 @@
   padding: 0; }
 
 .header {
-  background-image: url(../../img/bg-1.jpg);
+  background-image: url(./img/bg-1.jpg);
   width: 860px;
   height: 630px; }
   .header h1 {
