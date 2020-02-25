@@ -20,7 +20,9 @@
       color: #178326; }
     .header .logo p {
       color: #41fe91;
-      font-size: 30px; }
+      font-size: 30px;
+      font-weight: bold;
+      padding-left: 80px; }
 
 .video {
   background-image: url(../img/bg-2.jpg);
@@ -41,8 +43,12 @@
   .video h2 {
     color: #1d8dff;
     font-size: 30px;
+    text-align: center; }
+  .video h5 {
     text-align: center;
-    margin-top: 70px; }
+    margin-top: 70px;
+    color: #1d8dff;
+    font-size: 20px; }
   .video img {
     /* margin-top: 186px; */
     display: block;
@@ -52,8 +58,10 @@
   .video video {
     width: 642;
     height: 365; }
-  .video .text-nghieng img {
-    padding-top: unset; }
+  .video .text-nghieng {
+    margin-top: 20px; }
+    .video .text-nghieng img {
+      padding-top: unset; }
 
 .Product {
   background-image: url(../img/bg-product.png);
@@ -73,27 +81,40 @@
       background-color: #f4ecb7;
       font-size: 22px; }
     .Product .grid-item .grid-item-1 {
-      font-size: 70px; }
+      font-size: 70px;
+      margin-top: 60px;
+      color: #225ae6;
+      font-weight: 600; }
     .Product .grid-item .grid-item-img-1 {
       margin-top: 60px; }
     .Product .grid-item .grid-item-text-1 {
-      margin-top: 30px; }
+      margin-top: 40px;
+      font-weight: 800; }
     .Product .grid-item .grid-item-img-2 {
       margin-top: 20px; }
     .Product .grid-item p.grid-item-text-2 {
-      margin-top: 11px; }
+      margin-top: 21px;
+      /* margin-top: 40px; */
+      font-weight: 800;
+      margin-right: 10px; }
     .Product .grid-item .grid-item-img-3 {
       margin-top: 30px; }
     .Product .grid-item .grid-item-text-3 {
-      margin-top: 30px; }
+      margin-top: 35px;
+      font-weight: 800; }
     .Product .grid-item img.grid-item-img-4 {
       margin-top: 60px; }
     .Product .grid-item p.grid-item-text-4 {
-      margin-top: 40px; }
+      margin-top: 45px;
+      font-weight: 800; }
     .Product .grid-item img.grid-item-img-5 {
       margin-top: 60px; }
     .Product .grid-item .grid-item-text-5 {
-      margin-top: 55px; }
+      /* margin-top: 55px; */
+      margin-top: 60px;
+      /* margin-top: 35px; */
+      font-weight: 800;
+      margin-right: 13px; }
     .Product .grid-item .grid-item-1 {
       margin-top: 60px; }
     .Product .grid-item .icon-sale {
@@ -131,6 +152,8 @@
     color: #097680; }
   .help .title {
     padding: 40px 50px 30px 50px; }
+    .help .title p {
+      font-weight: bold; }
   .help button {
     width: 682px;
     height: 67px;
@@ -174,8 +197,8 @@
       right: 0px; }
     .Introduction .content img.sticker-5 {
       position: absolute;
-      top: 1860px;
-      right: 40px;
+      top: 1688px;
+      right: 0px;
       z-index: 10; }
     .Introduction .content .intro {
       background-color: #b1b6b1;
@@ -184,10 +207,15 @@
       opacity: .8; }
       .Introduction .content .intro .intro-content {
         color: #3f17a1; }
+        .Introduction .content .intro .intro-content p {
+          color: #3f17a1;
+          font-weight: bold; }
       .Introduction .content .intro .intro-content-detail {
-        color: #3c3c3c; }
+        color: #3c3c3c;
+        margin-top: 10px; }
       .Introduction .content .intro .intro-content-detail-last {
-        padding: 20px; }
+        padding: 20px;
+        font-size: 14.5px; }
       .Introduction .content .intro p {
         color: #3c3c3c; }
     .Introduction .content .logo {
@@ -196,6 +224,8 @@
       font-size: 52px; }
       .Introduction .content .logo img {
         padding-top: 50px; }
+      .Introduction .content .logo .not-pd {
+        padding: 0px; }
     .Introduction .content h1 {
       text-align: center;
       color: #3f17a1;

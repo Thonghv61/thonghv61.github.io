@@ -16,9 +16,12 @@
             font-size: 70px;
             color: #178326;
         }
+        
         p {
             color: #41fe91;
             font-size: 30px;
+            font-weight: bold;
+            padding-left: 80px;
         }
     }
 }
@@ -49,7 +52,13 @@
         color: #1d8dff;
         font-size: 30px;
         text-align: center;
+        // margin-top: 70px;
+    }
+    h5 {
+        text-align: center;
         margin-top: 70px;
+        color: #1d8dff;
+        font-size: 20px;
     }
     img{
         // position: absolute; 
@@ -58,6 +67,7 @@
         /* margin-top: 186px; */
         margin: 0 auto;
         padding-top: 186px;
+        // margin-top: 20px;
     
     }
     video{
@@ -69,6 +79,9 @@
         img{
             padding-top: unset;
         }
+       
+        margin-top: 20px;
+        
     }
 }
 
@@ -95,36 +108,52 @@
         }
         .grid-item-1 {
             font-size: 70px;
+            margin-top: 60px;
+            color: #225ae6;
+            font-weight: 600;
+        
         }
         .grid-item-img-1 {
             margin-top: 60px;
+            
         }
         .grid-item-text-1 {
-            margin-top: 30px;
+            margin-top: 40px;
+            font-weight: 800;
         }
         .grid-item-img-2 {
             margin-top: 20px;
         }
         p.grid-item-text-2 {
-            margin-top: 11px;
+            margin-top: 21px;
+            /* margin-top: 40px; */
+            font-weight: 800;
+            margin-right: 10px;
         }
         .grid-item-img-3 {
             margin-top: 30px;
         }
         .grid-item-text-3 {
-            margin-top: 30px;
+            margin-top: 35px;
+            font-weight: 800;
         }
         img.grid-item-img-4 {
             margin-top: 60px;
         }
         p.grid-item-text-4 {
-            margin-top: 40px;
+            margin-top: 45px;
+           
+            font-weight: 800;
         }
         img.grid-item-img-5 {
             margin-top: 60px;
         }
         .grid-item-text-5 {
-            margin-top: 55px;
+               /* margin-top: 55px; */
+                margin-top: 60px;
+                /* margin-top: 35px; */
+                font-weight: 800;
+                margin-right: 13px;
         }
         .grid-item-1 {
             margin-top: 60px;
@@ -171,6 +200,9 @@
     }
     .title {
         padding: 40px 50px 30px 50px;
+        p{
+            font-weight: bold;
+        }
     }
     button {
         width: 682px;
@@ -221,8 +253,8 @@
     }
     img.sticker-5 {
         position: absolute;
-        top: 1860px;
-        right: 40px;
+        top: 1688px;
+        right: 0px;
         z-index: 10;
     }
     
@@ -235,12 +267,20 @@
         opacity: .8;
         .intro-content {
             color: #3f17a1;
+            p{
+                color: #3f17a1;
+                font-weight: bold;
+
+            }
         }
         .intro-content-detail {
             color: #3c3c3c;
+            margin-top: 10px;
         }
         .intro-content-detail-last {
             padding: 20px;
+            
+            font-size: 14.5px;
         }
         p{
             color: #3c3c3c;
@@ -254,6 +294,12 @@
         img{
             padding-top: 50px;
         }
+        .not-pd{
+            padding: 0px;
+        }
+        // h3{
+        //     padding: 1px;
+        // }
        
     }
     h1 {
