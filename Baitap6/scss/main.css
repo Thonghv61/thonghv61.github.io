@@ -39,7 +39,8 @@
     background: #010201;
     border: 1px solid #158a07;
     opacity: .7;
-    margin-left: 90px; }
+    margin-left: 90px;
+    font-family: monospace; }
   .video h2 {
     color: #1d8dff;
     font-size: 30px;
@@ -71,6 +72,8 @@
   .Product p {
     font-size: 10px;
     color: #097680; }
+  .Product .grid-1 {
+    background-image: url(../../img/sticker-6.jpg); }
   .Product .grid-item {
     border-left: 1px solid #6cbc64;
     text-align: center;
@@ -128,7 +131,11 @@
       top: 42px;
       left: 12px;
       color: #097680;
-      font-size: 32px; }
+      font-size: 15px; }
+      .Product .grid-item .icon-sale i {
+        font-size: 25px;
+        font-style: unset;
+        font-weight: bold; }
     .Product .grid-item .icon-sale-right {
       border-radius: 50%;
       border: 1.5px solid;
@@ -140,7 +147,11 @@
       top: 42px;
       right: 12px;
       color: #097680;
-      font-size: 32px; }
+      font-size: 15px; }
+    .Product .grid-item i {
+      font-size: 25px;
+      font-style: unset;
+      font-weight: bold; }
 
 .help {
   background-image: url(../img/bg-4.png); }
@@ -154,6 +165,8 @@
     padding: 40px 50px 30px 50px; }
     .help .title p {
       font-weight: bold; }
+    .help .title .content-title {
+      padding-bottom: 10px; }
   .help button {
     width: 682px;
     height: 67px;
@@ -186,27 +199,31 @@
       top: top;
       position: absolute;
       top: 470px;
-      right: 1px; }
+      right: 1px;
+      z-index: -1; }
     .Introduction .content img.sticker-3 {
       position: absolute;
       top: 967px;
-      left: 0px; }
+      left: 0px;
+      z-index: -1; }
     .Introduction .content img.sticker-4 {
       position: absolute;
-      top: 1500px;
-      right: 0px; }
+      top: 900px;
+      right: 0px;
+      z-index: -1; }
     .Introduction .content img.sticker-5 {
       position: absolute;
-      top: 1688px;
+      top: 1750px;
       right: 0px;
       z-index: 10; }
     .Introduction .content .intro {
       background-color: #b1b6b1;
       padding: 0 13px 45px 13px;
-      margin: 50px 17px;
+      margin: 59px 17px 20px 17px;
       opacity: .8; }
       .Introduction .content .intro .intro-content {
-        color: #3f17a1; }
+        color: #3f17a1;
+        font-size: 25px; }
         .Introduction .content .intro .intro-content p {
           color: #3f17a1;
           font-weight: bold; }
@@ -237,6 +254,7 @@
       /* margin-bottom: 32px; */
       padding-bottom: 32px;
       font-size: 10px;
-      color: 10px; }
+      color: 10px;
+      padding-top: 10px; }
 
 /*# sourceMappingURL=main.css.map */

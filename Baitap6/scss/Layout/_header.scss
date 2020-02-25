@@ -45,6 +45,8 @@
         border: 1px solid #158a07;
         opacity: .7;
         margin-left: 90px;
+        font-family: monospace;
+
     
     
     }
@@ -94,6 +96,9 @@
         font-size: 10px;
         color: #097680;
 
+    }
+    .grid-1{
+        background-image: url(../../img/sticker-6.jpg);
     }
     .grid-item {
         border-left: 1px solid #6cbc64;
@@ -169,7 +174,12 @@
             top: 42px;
             left: 12px;
             color: #097680;
-            font-size: 32px;
+            font-size: 15px;
+            i {
+                font-size: 25px;
+                font-style: unset;
+                font-weight: bold;
+            }
 
         }
         .icon-sale-right {
@@ -184,8 +194,14 @@
             top: 42px;
             right: 12px;
             color: #097680;
-            font-size: 32px;
+            font-size: 15px;
             }
+            i {
+                font-size: 25px;
+                font-style: unset;
+                font-weight: bold;
+            }
+            
         }
         
 }
@@ -202,6 +218,9 @@
         padding: 40px 50px 30px 50px;
         p{
             font-weight: bold;
+        }
+        .content-title {
+            padding-bottom: 10px;
         }
     }
     button {
@@ -240,20 +259,23 @@
         position: absolute;
         top: 470px;
         right: 1px;
+        z-index: -1;
     }
     img.sticker-3 {
         position: absolute;
         top: 967px;
         left: 0px;
+        z-index: -1;
     }
     img.sticker-4 {
         position: absolute;
-        top: 1500px;
+        top: 900px;;
         right: 0px;
+        z-index: -1;
     }
     img.sticker-5 {
         position: absolute;
-        top: 1688px;
+        top: 1750px;
         right: 0px;
         z-index: 10;
     }
@@ -263,10 +285,11 @@
         background-color: #b1b6b1;
         padding: 0 13px 45px 13px;
         // margin: 0 17px;
-        margin: 50px 17px;
+        margin: 59px 17px 20px 17px;
         opacity: .8;
         .intro-content {
             color: #3f17a1;
+            font-size: 25px;
             p{
                 color: #3f17a1;
                 font-weight: bold;
@@ -315,6 +338,7 @@
         padding-bottom: 32px;
         font-size: 10px;
         color: 10px;
+        padding-top: 10px;
     }
 }
 }
