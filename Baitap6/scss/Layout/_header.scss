@@ -6,6 +6,7 @@
         text-align: center;
         padding-top: 340px;
         color: #1d8dff;
+        font-family: sans-serif;
     }
     .logo {
         display: flex;
@@ -28,7 +29,8 @@
 
 .video{
     background-image: url(../img/bg-2.jpg);
-    height: 840px;
+    background-repeat: no-repeat;
+    height: 837px;
     h1{
         // background-image: url(../../img/bg-title.png);
         // background-repeat: no-repeat;
@@ -283,6 +285,8 @@
 
     .intro{
         background-color: #b1b6b1;
+        // background-image: url(../../img/bg-white-3.png);
+
         padding: 0 13px 45px 13px;
         // margin: 0 17px;
         margin: 59px 17px 20px 17px;

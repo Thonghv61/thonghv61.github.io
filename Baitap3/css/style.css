@@ -2,6 +2,8 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+    font-size: 13px;
+    color: #595959;
 }
 
 .header{
@@ -81,7 +83,7 @@ body {
     text-align: left;
     padding: -8px 33px;
     font-size: 13px;
-    padding: 8px 32;
+    padding: 8px 3.5px;
 
     margin: 28px 0;
 }
@@ -98,12 +100,12 @@ body {
     content: "";
     border-color: transparent #707070;
     border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
+    border-width: 0.3em 0 0.3em 0.30em;
     display: block;
     height: 0;
     width: 0;
     left: -1em;
-    top: 1.2em;
+    top: 0.9em;
     position: relative;
 }
 
@@ -143,7 +145,7 @@ img.bner {
 }
 
 .footer{
-    margin-top: 78px;
+    margin-top: 70px;
     margin-left: 76px;
     /* padding: 20px; */
     border-top: 1px dotted #323232;
@@ -155,6 +157,7 @@ img.bner {
     padding-bottom: 65px;
     width: 660px;
     font-size: 10px;
+    line-height: 1.5px;
 }
 
 .footer a{

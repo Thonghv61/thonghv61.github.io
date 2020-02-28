@@ -32,6 +32,9 @@
     }
     .RowHeader{
         display: flex;
+        .title-big {
+            font-size: 27px;
+        }
     }
     .RowProduct {
         width: 97.5%;
@@ -47,13 +50,13 @@
         
     // }
     .titel-img {
-        margin-left: 115px;
+        margin-left: 8px;
         margin-top: 6px;
     }
     .titel {
         margin-top: 40px;
         margin-left: 30px;
-        font-size: 22px;
+        font-size: 23px;
         text-shadow: 4px 4px 17px #0b5ea2;
         color: #492703;
     }
@@ -72,6 +75,14 @@
         float: left;
         margin-left: 12px;
         overflow-x: hidden;
+        .pic_product{
+            padding: unset;
+        }
+        .product-header{
+            img{
+                max-width: 436px;
+            }
+        }
         .icon-sales-3{
             background-image: url(../../images/icon-sales-3.png);
             background-repeat: no-repeat;

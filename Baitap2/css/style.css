@@ -3,13 +3,35 @@ body{
     padding: 0;
     font-family: arial, serif;
     font-size: 0.6875em;
+    background: black;
 }
 
 .container {
     width: 1031px;
-    height: 649px;
+    height: auto;
     margin: 0 auto;
     background-color: black;
+}
+.page-left::after{
+    
+    content: "";
+    display: block; 
+    clear: both;
+    
+}
+.content-left::after{
+    
+    content: "";
+    display: block; 
+    clear: both;
+    
+}
+.page-right:after{
+    
+    content: "";
+    display: block; 
+    clear: both;
+    
 }
 .page-left{
     float: left;

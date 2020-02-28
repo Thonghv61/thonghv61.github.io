@@ -9,7 +9,8 @@
   .header h1 {
     text-align: center;
     padding-top: 340px;
-    color: #1d8dff; }
+    color: #1d8dff;
+    font-family: sans-serif; }
   .header .logo {
     display: flex;
     justify-content: space-around;
@@ -26,7 +27,8 @@
 
 .video {
   background-image: url(../img/bg-2.jpg);
-  height: 840px; }
+  background-repeat: no-repeat;
+  height: 837px; }
   .video h1 {
     color: #e4e622;
     font-size: 27px;
@@ -73,7 +75,7 @@
     font-size: 10px;
     color: #097680; }
   .Product .grid-1 {
-    background-image: url(../img/sticker-6.jpg); }
+    background-image: url(../../img/sticker-6.jpg); }
   .Product .grid-item {
     border-left: 1px solid #6cbc64;
     text-align: center;
