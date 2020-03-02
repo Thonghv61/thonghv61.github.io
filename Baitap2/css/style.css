@@ -11,6 +11,7 @@ body{
     height: auto;
     margin: 0 auto;
     background-color: black;
+
 }
 .page-left::after{
     
@@ -217,4 +218,10 @@ a.more-info {
 
 .block-content-right span{
     padding-left: 10px;
+}
+
+.content-left::after {
+    content: "";
+    display: block;
+    clear: both;
 }
