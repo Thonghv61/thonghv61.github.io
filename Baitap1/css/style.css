@@ -1,15 +1,17 @@
 @font-face{
     src: url(../font/TIMESR.ttf);
     font-family: times;
+    
 
 }
 
 body{
+    font-family: 'Times New Roman';
     margin: 0px;
     padding: 0px;
     font-size: 15px;
-    color: black;
-    background: white;
+    color: #000000;
+    background: #ffffff;
 }
 .wrapper {
     width: 502px;
@@ -18,13 +20,13 @@ body{
     border: .1px solid #dfdfdf;  
 }
 .player-info img {
-    width: 100px;
+    width: 90px;
     height: 90px;
     margin-right: 5px;
 }
 .player-info {
     display: flex;
-    margin: 10px;
+    margin: 0px 10px 0px 10px;
 }
 .player-info info{
     overflow: scroll;
@@ -33,26 +35,26 @@ body{
     width: 390px;
     height: 100px;
     overflow: scroll;
-    margin: 0;
     list-style: none;
-    padding-left: 10px;
-    font-size: 15px;
+    padding-left: 5px;
+    margin-top: 0;
+
 }
-.player-title h3 {
+.player-title {
     font-size: 17px;
     padding-left: 5px;
 }
-.player-title h3{
+ .player-title {
     background-image: url(../img/title_bg.gif);
     background-repeat: repeat-x;
     line-height: 25px;
-    margin-top: 0px;
-    margin-right: 1px;
+    background-image: url(../img/title_bg.gif);
+    background-repeat: repeat-x;
+    line-height: 25px;
+    margin: 0 1px 5px 0;
 }
 .acts li{
     list-style: none;
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 7px;
 }
 .acts .title{
@@ -80,8 +82,7 @@ body{
     height: 44px;
 }
 .post-contain p {
-    margin: 3px;
-    margin-left: 20px;
+    margin: 3px 3px 3px 20px;
 }
 .post .post-contain::after{
     position: absolute;
@@ -100,23 +101,23 @@ body{
     margin-bottom: 5px;
     font-size: 13px;
 }
-.comment h4{
-    text-align: center;font-size: 17px;
+.comment td{
+    /* text-align: center;font-size: 17px;
     font-weight: bold;
     margin: unset;
-    margin-top: 29px;
+    margin-top: 29px; */
+    font-family: serif;
+    text-shadow: 0 -0.5px #000000;
 }
 textarea {
     height: 84px;
     width:370px;
-    font-family: 'Times New Roman';
     font-weight: 540;
     resize: none;
     border: 1px solid #e2e2e2;
+    text-shadow: 0 -0.5px #000000;
     font-size: 15px;
-}
-.acts {
-    margin-top: 20px;
+    font-family: 'Times New Roman';
 }
 .post-cmt a{
     text-decoration: none;
@@ -127,10 +128,25 @@ textarea {
 }
 .comment input[type="text"] {
     width: 142px;
-    height: 17px;
+    height: 20px;
     padding: 0;
     margin: 0;
 }
 .player-title {
     margin-left: 1px;
+}
+
+.your-comment{
+    text-align: center;
+    margin: unset;
+    margin-top: 29px;
+    text-shadow: 0 -0.5px #000000;
+    font-size: 17px;
+}
+.comment input {
+    width: 142px;
+    height: 17px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #e2e2e2;
 }
