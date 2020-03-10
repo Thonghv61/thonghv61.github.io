@@ -8,7 +8,8 @@
 
 # JS - Jquery
 * [Bài 1](https://thonghv61.github.io/Bai1-js/)
-* [Bài 2](https://thonghv61.github.io/Bai2-js/Bai2-1)
+* [Bài 2-1](https://thonghv61.github.io/Bai2-js/Bai2-1)
+* [Bài 2-2](https://thonghv61.github.io/Bai2-js/Bai2-2)
 * [Bài 3](https://thonghv61.github.io/Bai3-js/)
 
 
