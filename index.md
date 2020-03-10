@@ -6,4 +6,9 @@
 * [Bài 5](https://thonghv61.github.io/Ex-5/) 
 * [Bài 6](https://thonghv61.github.io/Ex-6/) 
 
+# JS - Jquery
+* [Bài 1](https://thonghv61.github.io/Bai1-js/)
+* [Bài 2](https://thonghv61.github.io/Bai1-js/)
+* [Bài 3](https://thonghv61.github.io/Bai1-js/)
+
 
