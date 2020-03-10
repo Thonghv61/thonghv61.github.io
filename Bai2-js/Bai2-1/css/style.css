@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, ol,
+dl, dt, dd, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body { 
+  line-height: 1;
+
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS CONTAINER */
+.container {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.container__form tr {
+  height: 35px;
+  line-height: 35px;
+}
+
+.btn {
+  cursor: pointer;
+  font-weight: bold;
+  color: #FFF;
+  background: #0277BD;
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.title {
+  width: 100px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.col-dob {
+  display: inline;
+  position: relative;
+}
+.input-date {cursor: default;}
+.icon-calendar {
+  cursor: pointer;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  right: 1%;
+  top: -2%;
+}
+
+.calendar {
+  display: none;
+  text-align: center;
+}
+
+.calendar td {
+  position: relative;
+  width: 55px;
+  border: 1px solid #000;
+}
+
+.calendar button,select {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 35px;
+  margin: 0;
+}
+
+.calendar img {
+  width: 20px;
+  height: 20px;
+}
+
+.day-of-week {
+  font-weight: bold;
+  color: #B71C1C;
+  background: #64B5F6;
+}
+
+.empty-day {background: #999;}
+
+.to-day {
+  font-weight: bold;
+  color: #FFD600;
+  background: #2962FF;
+}
+
+.validate {
+  font-weight: bold;
+  color: #D50000;
+  padding-left: 20px;
+}
+
+.btn-calendar {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+.btn-prev-month {
+  background: url('../imgs/arrow-left.png') no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
+
+.btn-next-month {
+  background: url('../imgs/arrow-right.png') no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
+
+.btn-prev-year {
+  background: url('../imgs/arrow2-left.png') no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
+
+.btn-next-year {
+  background: url('../imgs/arrow2-right.png') no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
+form {
+   text-align: centerc;
+   margin: 0 autoau;
+   margin: 0 auto;
+   width: 500px;
+}
+table {
+  
+  margin: auto;
+}

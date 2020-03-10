@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài tập 2</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <form action="index.html" method="post">
+    	<table class="container__form" id="js-form">
+       
+        <tr>
+          <td class="col-dob">
+            <input class="input-date" id="js-birthday" type="text" name="txtBirth" readonly>
+            <img class="icon-calendar" id="js-icon-calendar" src="imgs/calender.png" alt="calendar">
+            <table class="calendar" id="js-calendar">
+              <tr>
+                <td>
+                  <input class="btn-calendar btn-prev-year" id="js-prev-year" type="button">
+                </td>
+                <td>
+                  <input class="btn-calendar btn-prev-month" id="js-prev-month" type="button">
+                </td>
+                <td colspan="2">
+                  <select id="js-month"></select>
+                </td>
+                
+                <td>
+                  <select id="js-year"></select>
+                </td>
+                <td>
+                  <input class="btn-calendar btn-next-month" id="js-next-month" type="button">
+                </td>
+                <td>
+                  <input class="btn-calendar btn-next-year" id="js-next-year" type="button">
+                </td>
+              </tr>
+              <tr class="day-of-week">
+                <td>Sun</td>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+                <td>Sat</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        
+      </table>
+    </form>
+  </div>
+  <!-- SCRIPT -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="js/action.js"></script>
+</body>
+</html>
