@@ -1,9 +1,54 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 body{
     margin: 0;
     padding: 0;
-    font-family: arial, serif;
-    font-size: 0.6875em;
+    font-family:serif;
+    font-size: 12px;
     background: black;
+ 
 }
 
 .container {
@@ -11,6 +56,7 @@ body{
     height: auto;
     margin: 0 auto;
     background-color: black;
+    display: flex;
 
 }
 .page-left::after{
@@ -27,42 +73,7 @@ body{
     clear: both;
     
 }
-.page-right:after{
-    
-    content: "";
-    display: block; 
-    clear: both;
-    
-}
-.page-left{
-    float: left;
-    width: 50%;
-}
-.page-right{
-    float: right;
-    margin-right: 170px;
-    margin-top: 20px;
-}
 
-.content-left .title {
-    margin-top: 37px;
-    margin-left: 50px;
-    margin-bottom: 40px;
-    margin-left: 185px;
-}
-.block-content img {
-    max-width: 200;
-    max-height: 100px;
-    /* margin-left: 50px; */
-    float: left;
-    padding-right: 23px;
-    margin-bottom: 37px;
-}
-
-.block-content-right {
-    margin-left: 0px;
-
-}
 .block-content-right h4{
     margin: 0;
     color: white;
@@ -78,36 +89,16 @@ body{
 }
 .block-content p {
     color: #595959;
-    font-size: 0.6875em;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 11px;
-    margin-top: 14px;
-    padding-bottom: 15px;
+    line-height: 10px;
+    margin: 14px 0 0 0;
 
 }
 
-.block-content {
-    border-bottom: 1px dotted #3f3f41;
-    width: 394px;
-    margin-left: 185px;
-    margin-bottom: 15px;
-}
-.page-left a{
-    color: #ffffff;
-    margin-left: 185px;
-    padding-bottom: 40px;
-}
-.page-left a::before{
-    content: url(../img/arr_1.gif);
-    padding-right: 5px;
-    
-}
 
 .content-bottom h4 {
     color: white;
     margin: 0;
-   
-
+    margin-top: 86px;
 }
 .content-bottom p{
     color: #595959;
@@ -116,40 +107,15 @@ body{
 }
 .content-2{
     color: #595959;
-    display: flex;
-    width: 403px;
-    border-bottom: 1px dotted #3f3f41;
-}
-.content-bottom-title {
-    margin-left: 50px;
-    margin-top: 88px;
-    margin-left: 185px;
-}
-.content-2{
-    list-style: none;
-    margin-left: 185px;
-    margin-bottom: 10px;
-    margin-bottom: 15px;
-}
+    
+} 
+
 .content-2 li{
     text-decoration: underline;
     list-style: none;
     padding-bottom: 7px;
 }
 
-.content-2 li::after{
-   
-        content: "";
-        border-color: rgba(107, 76, 76, 0) #838080;
-        border-style: solid;
-        border-width: 0.35em 0 0.35em 0.45em;
-        display: block;
-        height: 0;
-        width: 0;
-        left: -12px;
-        top: -0.8em;
-        position: relative;
-}
 
 .content-2 ul{
     padding: 0;
@@ -158,26 +124,23 @@ body{
     margin-bottom: 20px;
 }
 .box .white {
-    color: white;
+    color: #ffffff;
 }
-.card {
-    max-width: 237px;
-    height: 413px;
-    background-color: 2326;
+
+.page-right{
     background-color: #232326;
-    margin: 20px;
+    margin-top: 22px;
+    width: 237px;
     text-align: center;
+    height: 385px;
+    
+
 }
 
 .card img {
-        margin-top: 72px;
+    margin-top: 30px;
 }
-.card .box{
-    text-align: left;
-    width: 200px;
-    margin-left: 40px;
-    margin-top: 25px;
-}
+
 .color-{
     color: #595959;
     margin-top: 10px;
@@ -185,6 +148,14 @@ body{
 }
 
 .box a::before{
+    content: url(../img/arr_1.gif);
+    padding-right: 5px;
+}
+.more-info{
+    text-decoration: none;
+}
+
+.more-info::before{
     content: url(../img/arr_1.gif);
     padding-right: 5px;
 }
@@ -198,30 +169,95 @@ body{
     height: 0;
     visibility: hidden;
 }
-.block img{
-    padding-top: 32px;
-    border-top: 1px solid #353439;
-}
 
 .block-content-right {
-    /* margin-left: 21px; */
-    /* float: right; */
-    /* float: left; */
+
     padding-right: 14px;
 }
-.pd-50{
-    margin-bottom: 50px;
-}
-a.more-info {
-    color: #ffffff;
-}
-
 .block-content-right span{
     padding-left: 10px;
 }
 
-.content-left::after {
-    content: "";
-    display: block;
-    clear: both;
+
+.block-content {
+    display: flex;
 }
+.content-left {
+    margin-top: 38px;
+}
+.title {
+    height: 38px;
+}
+.page-left {
+    margin-left: 245px;
+    width: 410px;
+}
+.block-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.block-content-right {
+    margin-left: 21px;
+    padding-right: 14px;
+}
+.card img {
+    width: 166px;
+    height: 86px;
+}
+.box {
+    text-align: left;
+    margin-left: 33px;
+}
+.title.white {
+    height: auto;
+}
+.pd-50{
+    color: #767884;
+    margin-top: 4px;
+    margin-bottom: 50px;
+}
+.block {
+    border-top: 1px solid #353439;
+    width: 192px;
+    margin: 72px auto 0 auto;
+}
+.box {
+    text-align: left;
+    margin-left: 11px;
+}
+.text-2 {
+    color: #595959;
+    margin: 0 0 15px 0;
+    border-bottom: 1px dotted #595959;
+    padding-bottom: 13px;
+    width: 380px;
+}
+.more-info {
+    color: #ffffff;
+}
+
+.content-2 {
+    display: flex;
+    border-bottom: 1px dotted #595959;
+    margin-bottom: 15px;
+}
+
+ul li::before {
+    content: "";
+    border-color: rgba(107, 76, 76, 0) #838080;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -9px;
+    top: 0.9em;
+    position: relative;
+    
+    }
+
+ul li a{
+    color: #595959;
+}
+
