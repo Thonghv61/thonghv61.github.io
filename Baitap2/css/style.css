@@ -23,9 +23,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -160,6 +157,8 @@ body{
 .more-info::before{
     content: url(../img/arr_1.gif);
     padding-right: 5px;
+    position: relative;
+    top: 2px;
 }
 .box a{
     color: #595959;
@@ -192,6 +191,7 @@ body{
 }
 .page-left {
     margin-left: 245px;
+    margin: 0 20px 0 245px;
     width: 410px;
 }
 .block-content img {
@@ -230,9 +230,9 @@ body{
 }
 .text-2 {
     color: #595959;
-    margin: 0 0 15px 0;
-    border-bottom: 1px dotted #595959;
-    padding-bottom: 13px;
+    /* margin: 0 0 15px 0; */
+    /* border-bottom: 1px dotted #595959; */
+    /* padding-bottom: 13px; */
     width: 380px;
 }
 .more-info {
@@ -264,3 +264,23 @@ ul li a{
     color: #595959;
 }
 
+.text-3 {
+    color: white;
+    border-bottom: 1px dotted #595959;
+    width: 363px;
+    color: #595959;
+    margin: 0 0 13px 15px;
+    padding-bottom: 13px;
+}
+/* .page-left .more-info{
+    margin-left: 15px;
+
+} */
+.content-bottom{
+    margin-left: 15px;
+}
+.more-info-1{
+    margin-left: 15px;
+
+}
+    
