@@ -26,7 +26,7 @@ ul{
     display: inline-block;
     position: absolute;
     width: 418px;
-    height: 48px;
+    height:49px;
     background: url(../img/btn_mango_off.png);
     z-index: 1;
 }
@@ -49,7 +49,7 @@ ul li{
     display: inline-block;
     position: absolute;
     width: 418px;
-    height: 48px;
+    height: 49px;
     background: url(../img/btn_mango_off.png);
     z-index: 1;
 }
