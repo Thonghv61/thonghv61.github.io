@@ -3,12 +3,8 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url(../img/bg.png);
-}
-
 .wapper {
-    width: 1124px;
+    width: 1024px;
     margin: 0 auto;
     position: relative;
     
@@ -23,7 +19,7 @@ ul{
 
 .Product-promotion li:nth-child(odd) a {
     bottom: 25px;
-    left: 115px;
+    left: 67px;
 }
 
 .Product-promotion li:nth-child(odd) a{
@@ -31,7 +27,7 @@ ul{
     position: absolute;
     width: 418px;
     height: 48px;
-    background: url(../img/btn_mango_on.png);
+    background: url(../img/btn_mango_off.png);
     z-index: 1;
 }
 .Product-promotion li{
@@ -46,7 +42,7 @@ ul li{
 
 .Product-promotion li:nth-child(even) a {
     bottom: 25px;
-    right: 115px;
+    right: 67px;
 }
 
 .Product-promotion li:nth-child(even) a{
@@ -54,35 +50,17 @@ ul li{
     position: absolute;
     width: 418px;
     height: 48px;
-    background: url(../img/btn_mango_on.png);
+    background: url(../img/btn_mango_off.png);
     z-index: 1;
 }
 .Product-promotion li a:hover {
-    background: url(../img/btn_mango_off.png);
+    background: url(../img/btn_mango_on.png);
 }
 .titel-step-by-step{
     margin-top: 18px;
     max-height: 207px;
 }
-.step-1{
-    max-height: 410px;
-}
-.step-2{
-    max-height: 411px;
-}
-.step-3 {
-    max-height: 450px;
-}
-.feedback {
-    max-height: 558px;
-}
-.combo {
-    max-height: 714px;
-}
-.title-sales{
-    max-height: 204px;
-}
-.contact {
-    max-height: 222px;
+img {
+    display: block;
 }
 
