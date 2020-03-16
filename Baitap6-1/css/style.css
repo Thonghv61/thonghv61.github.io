@@ -1,0 +1,429 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    color: #097680;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 0;
+}
+
+.container {
+    display: block;
+    max-width: 860px;
+    margin: 0 auto;
+    background: url("../images/wall-texture.jpg") repeat-Y;
+}
+
+.header,
+.film,
+.product,
+.describe,
+.released {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.film {
+    position: relative;
+    overflow: hidden;
+}
+
+.film .light {
+    padding: 0;
+    width: 860px;
+}
+
+.film .film__title {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    display: block;
+}
+
+.film iframe {
+    display: block;
+    margin: 0 auto;
+    width: 74.41860465116279%;
+}
+
+.film .mr--bt {
+    margin-top: 75px;
+    margin-bottom: 28px;
+}
+
+.film .mr--bt img {
+    padding: 0;
+    max-width: 472px;
+    max-height: 78px;
+}
+
+.product--sp {
+    display: none;
+}
+
+.product {
+    margin-top: 38px;
+}
+
+.product .product__list--sp {
+    display: none;
+}
+
+.product .product__list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product .product__list li {
+    width: 33.0235581395349%;
+    position: relative;
+}
+
+.product .product__list .product-3,
+.product .product__list .product-6 {
+    width: 32.7906976744186%;
+}
+
+.product .product__list .product-2,
+.product .product__list .product-5 {
+    width: 34.18604651162791%;
+}
+
+.product .product__list p {
+    position: absolute;
+    bottom: 4%;
+    display: inline-block;
+    text-align: center;
+    left: 5%;
+}
+
+.describe {
+    clear: both;
+}
+
+.describe .describe__info {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #dfd277;
+}
+
+.describe .describe__info .describe__title {
+    font-size: 24px;
+    display: inline-block;
+    padding: 5% 0 2% 7%;
+}
+
+.describe .describe__info .describe__content {
+    max-width: 683px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 70px;
+}
+
+.describe .describe__info .describe__content .describe__content--last {
+    margin-top: 30px;
+}
+
+.describe .describe__info .describe__content p {
+    padding-left: 10px;
+}
+
+.describe .describe__info .describe__btn {
+    padding: 39px 0;
+    display: block;
+}
+
+.describe .describe__info .describe__btn:hover {
+    opacity: 0.8;
+    -webkit-filter: opacity(0.8);
+    filter: opacity(0.8);
+}
+
+.released {
+    margin-top: 45px;
+}
+
+.released .released-inner {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+.released .released-inner .released__content {
+    display: block;
+    width: 100%;
+    padding-top: 5%;
+    position: relative;
+    color: #4f2ea0;
+    overflow: hidden;
+    font-family: Bodoni MT Bold;
+    background: url("../images/sp_footer_content.png");
+}
+
+.released .released-inner .released__content .icon {
+    display: inline-block;
+    position: absolute;
+}
+
+.released .released-inner .released__content .icon-1 {
+    top: 49%;
+    left: 0%;
+    width: 25.08299%;
+}
+
+.released .released-inner .released__content .icon-2 {
+    right: 4%;
+    bottom: 5%;
+    width: 15%;
+}
+
+.released .released-inner .released__content .icon-3 {
+    right: 0%;
+    top: 18%;
+    width: 24.1%;
+}
+
+.released .released-inner .released__content .icon-4 {
+    left: 0;
+    top: 19%;
+    width: 24%;
+}
+
+.released .released-inner .released__content .icon-5 {
+    right: 0%;
+    top: 46%;
+    width: 25.08%;
+}
+
+.released .released-inner .released__content .summary,
+.released .released-inner .released__content .contact,
+.released .released-inner .released__content .contact__info {
+    padding-top: 30px;
+    display: block;
+    margin: 39px auto;
+    max-width: 683px;
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    background: url("../images/bg_introduction.png") repeat-y;
+}
+
+.released .released-inner .released__content .summary .summary__info,
+.released .released-inner .released__content .contact .summary__info,
+.released .released-inner .released__content .contact__info .summary__info {
+    padding: 0 0 2% 4%;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.released .released-inner .released__content .summary .summary__content,
+.released .released-inner .released__content .contact .summary__content,
+.released .released-inner .released__content .contact__info .summary__content {
+    display: block;
+    width: 96%;
+    font-size: 13px;
+    color: #3e3e3e;
+    text-align: left;
+    line-height: 1.5;
+    padding: 30px 2%;
+}
+
+.released .released-inner .released__content .no-pd {
+    padding-top: 0;
+}
+
+.released .released-inner .released__content .contact__info {
+    background: none;
+}
+
+@media (max-width: 640px) {
+    .product .product__list p {
+        bottom: 0;
+    }
+
+    .describe .describe__info {
+        width: 98%;
+        padding: 1%;
+    }
+
+    .describe .describe__info .describe__title {
+        padding-left: 0;
+    }
+
+    .released .released-inner .introduction,
+    .released .released-inner .story,
+    .released .released-inner .contact {
+        width: 96%;
+    }
+}
+
+@media (max-width: 460px) {
+    .released .released-inner .introduction .introduction__info {
+        font-size: 14px !important;
+    }
+
+    .released .released-inner .introduction .released__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 297px) {
+    .released .released-inner .introduction .introduction__info {
+        font-size: 10px !important;
+    }
+
+    .released .released-inner .introduction .released__title {
+        font-size: 20px;
+    }
+}
