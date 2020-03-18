@@ -1,31 +1,40 @@
-$(document).ready(function(){
+var Add = document.getElementById('btn_add-js')
+var textInput = document.getElementById('name_product-js')
+var btnRemove = document.getElementById('btn_remove-js')
+Add.addEventListener('click',function(){
+	if(textInput.value.length == ""){
+		alert('Vùi lòng không để trống');
+	}
+	else if (textInput.value.length >= 20){
+		alert('Vui lòng nhập nhỏ hơn 20 ký tự');
+	}
+	else{
+		var Tagli = document.createElement("li");
+		var nodeText = document.createTextNode(textInput.value);
+		var btnDelete = document.createElement("input");
+		btnDelete.className = "btn_remove btn_remove-js";
+		// btnDelete.id ="btn_remove-js";
+		btnDelete.type = "button";
+		btnDelete.value = "X"
+		Tagli.appendChild(nodeText);
+		Tagli.appendChild(btnDelete);
+		document.getElementsByTagName("input")[0].setAttribute("type", "button");
+		console.log(Tagli);
+		document.getElementById("list_product").appendChild(Tagli);		
+	}
+	textInput.type = "text";
+	deleteData();
 
-	$("#name_product-js").attr("maxlength","30");
-	$("#btn_add-js").click(function(){
-		var product_name = $("#name_product-js").val().trim();
-		var list_product = $(".list_product-js li");
-		if (product_name == "") {
-			alert("Please enter product name");
-			return;
-		}
-		for (var i = 0; i < list_product.length; i++) {
-			if (product_name.toUpperCase() == list_product[i].innerText.toUpperCase()) {
-				alert('Product name is existed');
-				return;
-			}
-		}
-		$(".list_product-js").append("<li>"+ product_name+
-		 	 "<input class='btn_remove btn_remove-js' type='button' value='X'>"+"</li>");
-		$("#name_product").val("").focus();
-	});
-	
-	$(document).on("click", ".btn_remove", function(){
-		$(this).parent().remove();
-	});
-		
 });
+function deleteData() {
+	var i;
+	var del = document.getElementsByClassName("btn_remove-js");
+	for(i=0; i<del.length; i++){
+		del[i].onclick = function () {
+			var div = this.parentElement
+			div.style.display = "none";
+		}
+	}
+}
 
-// document.getElementById("btn_add-js").addEventListener("click", check);
-// function check(){
-// 	alert ("test");
-// }
+
