@@ -50,7 +50,6 @@ body{
 
 .container {
     width: 1031px;
-    height: auto;
     margin: 0 auto;
     background-color: black;
     display: flex;
@@ -115,10 +114,8 @@ body{
 
 
 .content-2 ul{
-    padding: 0;
     padding-right: 4px;
-    margin-left: 12px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 12px;
 }
 .box .white {
     color: #ffffff;
@@ -181,7 +178,6 @@ body{
     height: 38px;
 }
 .page-left {
-    margin-left: 245px;
     margin: 0 20px 0 245px;
     width: 410px;
 }
@@ -198,10 +194,7 @@ body{
     width: 166px;
     height: 86px;
 }
-.box {
-    text-align: left;
-    margin-left: 33px;
-}
+
 .title.white {
     height: auto;
 }
@@ -259,10 +252,6 @@ ul li a{
     margin: 0 0 13px 15px;
     padding-bottom: 13px;
 }
-/* .page-left .more-info{
-    margin-left: 15px;
-
-} */
 .content-bottom{
     margin-left: 15px;
 }
