@@ -15,7 +15,6 @@ body{
 }
 .wrapper {
     width: 502px;
-    height: auto;
     margin: 8px auto 10px auto;
     border: .1px solid #dfdfdf;  
 }
@@ -47,10 +46,6 @@ body{
  .player-title {
     background-image: url(../img/title_bg.gif);
     background-repeat: repeat-x;
-    line-height: 25px;
-    background-image: url(../img/title_bg.gif);
-    background-repeat: repeat-x;
-    line-height: 25px;
     margin: 0 1px 5px 0;
 }
 .acts li{
@@ -74,12 +69,10 @@ body{
 .post-contain{
     background-color: #ececec;
     max-width: 491px;
-    padding: -2px;
     padding: 2px;
     margin-left: 3px;
     position: relative;
     font-size: 15px;
-    height: 44px;
 }
 .post-contain p {
     margin: 3px 3px 3px 20px;
@@ -127,16 +120,6 @@ textarea {
     font-size: 15px;
     width: 100%;
 }
-.comment input[type="text"] {
-    width: 142px;
-    height: 20px;
-    padding: 0;
-    margin: 0;
-}
-.player-title {
-    margin-left: 1px;
-}
-
 .your-comment{
     text-align: center;
     margin: unset;

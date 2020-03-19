@@ -130,8 +130,6 @@ body{
     width: 237px;
     text-align: center;
     height: 385px;
-    
-
 }
 
 .card img {
@@ -146,10 +144,7 @@ body{
     margin: unset;
 }
 
-.box a::before{
-    content: url(../img/arr_1.gif);
-    padding-right: 5px;
-}
+
 .more-info{
     text-decoration: none;
 }
@@ -171,10 +166,6 @@ body{
     visibility: hidden;
 }
 
-.block-content-right {
-
-    padding-right: 14px;
-}
 .block-content-right span{
     padding-left: 10px;
 }

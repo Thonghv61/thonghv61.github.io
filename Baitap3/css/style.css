@@ -162,7 +162,6 @@ display: table;
 img.bner {
     margin-top: 40px;
     width: 392px;
-    height: 122px;
 }
 .block-3 p{
     color: #505959;
@@ -170,6 +169,7 @@ img.bner {
     border-bottom: 1px dotted #323232;
     font-size: 11px;
     width: 90%;
+    margin: 0 16px 16px;
     
 }
 .block-3 a {
@@ -188,7 +188,6 @@ img.bner {
     margin-top: 70px;
     margin-left: 76px;
     border-top: 1px dotted #323232;
-    width: 640px;
     color: #505959;
     font-family: sans-serif;
     padding-left: 7px;
