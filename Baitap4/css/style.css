@@ -9,12 +9,11 @@ body{
     background: #e6f3f9;
     margin: 15px auto;
 }
-.title img{
+.Blogroll img{
     
     max-width: 157px;
-    height: 82px;
     margin: 5px 5px 5px 8px;
-}
+} 
 
 .block-1 p {
     margin: 0;
@@ -77,11 +76,7 @@ body{
     height: 166px;
 }
 .block-3 img {
-    /* width: 120px;
-    height: 100px; */
-    
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-right: 35px;
 }
 .block-3 p{
     font-size: 11px;
@@ -130,7 +125,6 @@ body{
 .block-4 img{
 
     margin-left: 122px;
-    height: 47px;
     margin: unset;
 }
 .block-4 .info{
@@ -144,15 +138,10 @@ body{
     background: white;
     font-size: 12px;
     border-top: 4px solid #ffa500;
-    height: 113px;
     width: 100%;
 
 }
-.block-5 img {
-    width: 112px;
-    height: auto;
-    margin: unset;
-}
+
 .block-5 b{
     color: #0a6395;
     line-height: 30px;
@@ -160,8 +149,8 @@ body{
 }
 .block-5 p{
 
-    padding-top: 12px;
-    padding-left: 23px;
+    padding: 5px 67px 0 12px;
+
         
 }
 
