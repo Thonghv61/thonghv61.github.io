@@ -89,9 +89,7 @@ body{
     left:19px;  
 }
 .post .post-cmt {
-    margin-left: 51px;
-    margin-top: 1px;
-    margin-bottom: 5px;
+    margin: 1px 0 5px 51px;
     font-size: 13px;
 }
 .comment td{
