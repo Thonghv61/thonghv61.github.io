@@ -4,7 +4,7 @@
     padding: 0;
 }
 .wapper {
-    width: 1024px;
+    width: 1088px;
     margin: 0 auto;
     position: relative;
     
@@ -17,12 +17,12 @@ ul{
     list-style: none;
 }
 
-.Product-promotion li:nth-child(odd) a {
+.product-promotion li:nth-child(odd) a {
     bottom: 25px;
     left: 67px;
 }
 
-.Product-promotion li:nth-child(odd) a{
+.product-promotion li:nth-child(odd) a{
     display: inline-block;
     position: absolute;
     width: 418px;
@@ -30,22 +30,22 @@ ul{
     background: url(../img/btn_mango_off.png);
     z-index: 1;
 }
-.Product-promotion li{
+.product-promotion li{
     position: relative;
 }
 .slider {
-    max-height: 574px;
+    display: block;
 }
-ul li{
+/* ul li{
     max-height: 299px;
-}
+} */
 
-.Product-promotion li:nth-child(even) a {
+.product-promotion li:nth-child(even) a {
     bottom: 25px;
     right: 67px;
 }
 
-.Product-promotion li:nth-child(even) a{
+.product-promotion li:nth-child(even) a{
     display: inline-block;
     position: absolute;
     width: 418px;
@@ -53,14 +53,18 @@ ul li{
     background: url(../img/btn_mango_off.png);
     z-index: 1;
 }
-.Product-promotion li a:hover {
+.product-promotion li a:hover {
     background: url(../img/btn_mango_on.png);
 }
 .titel-step-by-step{
-    margin-top: 18px;
-    max-height: 207px;
+   
+    display: block;
 }
 img {
     display: block;
+}
+.header, ul , .titel-step-by-step,.step-1,.step-2,.step-3, .feedback,.combo,.title-sales,.contact,.footer{
+    display: flex;
+    justify-content: center;
 }
 
