@@ -17,7 +17,7 @@
 # Jquery
 
 * [Bài 1](https://thonghv61.github.io/Jquery-1)
-* [Bài 2](https://thonghv61.github.io/Jquery-2)
+* [Bài 2] Update
 * [Bài 3](https://thonghv61.github.io/Jquery-3)
 * [Bài 4](https://thonghv61.github.io/JQuery-4)
 
