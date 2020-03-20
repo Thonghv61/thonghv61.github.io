@@ -67,4 +67,43 @@ img {
     display: flex;
     justify-content: center;
 }
+.footer img {
+    position: relative;
+}
+.footer ul {
+    position: absolute;
+    bottom: 154px;
+    left: 50px;
+    color: #ebd8d1;
+}
+.footer ul li a{
+    color: #ebd8d1;
+    text-decoration: none;
+    font-size: 10.5px;
+    
+}
+.footer li{
+    padding-left: 30px;
+}
+.footer .last{
 
+    padding-left: 405px;
+}
+.footer a::before{
+    content: "";
+    background-image: url(../img/icon.jpg);
+    position: absolute;
+    bottom: 4px;
+    width: 7px;
+    height: 6px;
+    background-repeat: no-repeat;
+    margin-left: -15px;
+}
+.footer .last a::before{
+    content: "";
+    background-image: none;
+
+}
+.contact img {
+    margin-right: 1px;
+}
