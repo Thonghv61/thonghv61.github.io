@@ -23,6 +23,7 @@ Add.addEventListener('click',function(){
 		document.getElementById("list_product").appendChild(Tagli);		
 	}
 	textInput.type = "text";
+	textInput.value = "";
 	deleteData();
 
 });
@@ -32,7 +33,7 @@ function deleteData() {
 	for(i=0; i<del.length; i++){
 		del[i].onclick = function () {
 			var div = this.parentElement
-			div.style.display = "none";
+			div.remove();
 		}
 	}
 }
