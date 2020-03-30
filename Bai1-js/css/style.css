@@ -84,12 +84,14 @@ table {
    margin-bottom: 5px;
    margin-right: 10px;
    content: counter(item);
-   border-radius: 50%;
+   border-radius: 50% 50%;
    color: black;
    border: 1px solid;
    width: 20px;
    text-align: center;
    display: inline-block;
+   height: 20px;
+   line-height: 20px;
  }
 
  .btn_remove {

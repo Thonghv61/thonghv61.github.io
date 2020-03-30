@@ -1,4 +1,5 @@
 $(document).ready(function () {
+	var thang = [ " ","January", "February", "March", "April", "May", "June", "July", "August", "September","October", "November", "December"];
 	// Tag input Birth Day
 	var input = $('#js-birthday');
 	var calendar = $('#js-calendar');
@@ -169,7 +170,10 @@ $(document).ready(function () {
 					tag += (count == toDay.getDate() && thisMonth == (toDay.getMonth()+1) && thisYear == toDay.getFullYear()) ? "<td class='to-day'>" : "<td>" ;
 					tag += count++;
 					tag += "</td>";
-				} else {tag += "<td class='empty-day'></td>";}
+				} else {
+					tag += "<td class='empty-day'></td>";
+				
+				}
 			}
 			tag += "</tr>";
 			calendar.append(tag);
@@ -206,41 +210,8 @@ $(document).ready(function () {
 	{
 		for (var i = 1; i <= 12; i++) {
 			var check = (i == toDay.getMonth()+1) ? "selected" : "";
-			month.append("<option value='" + i + "'" + check + ">" + findNoM(i) + "</option");
-		}
-	}
-
-	/* Function find name of month
-	   - Input: value of the month.
-	   - Output: return name of month.
-	*/
-	function findNoM(value) 
-	{
-		switch (value) {
-			case 1:
-				return "January";
-			case 2:
-				return "February";
-			case 3:
-				return "March";
-			case 4:
-				return "April";
-			case 5:
-				return "May";
-			case 6:
-				return "June";
-			case 7:
-				return "July";
-			case 8:
-				return "August";
-			case 9:
-				return "September";
-			case 10:
-				return "October";
-			case 11:
-				return "November";
-			case 12:
-				return "December";
+			month.append("<option value='" + i + "'" + check + ">" + thang[i] + "</option");
+			
 		}
 	}
 });
