@@ -120,7 +120,11 @@ table {
   background: #64B5F6;
 }
 
-.empty-day {background: #999;}
+.empty-day {
+  background: #999;
+  pointer-events: none;
+
+}
 
 .to-day {
   font-weight: bold;
