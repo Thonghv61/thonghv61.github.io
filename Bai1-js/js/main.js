@@ -20,25 +20,29 @@ function AddList() {
 		btnDelete.value = "X"
 		Tagli.appendChild(nodeText);
 		Tagli.appendChild(btnDelete);
-		document.getElementsByTagName("input")[0].setAttribute("type", "button");
 		document.getElementById("list_product").appendChild(Tagli);	
 		textInput.focus();	
-		textInput.type = "text";
 		textInput.value = "";
-		deleteData();
+		btnRemove.addEventListener('click',deleteData);
+		function deleteData() {
+			Tagli.remove();
+		}
+
+		// deleteData();
 	}
 	
 	
 }
 function deleteData() {
-	var i;
-	var del = document.getElementsByClassName("btn_remove-js");
-	for(i=0; i<del.length; i++){
-		del[i].onclick = function () {
-			var div = this.parentElement
-			div.remove();
-		}
-	}
+	// var i;
+	// var del = document.getElementsByClassName("btn_remove-js");
+	// for(i=0; i<del.length; i++){
+	// 	del[i].onclick = function () {
+	// 		var div = this.parentElement
+	// 		console.log(div)
+	// 		div.remove();
+	// 	}
+	// }
 	
 }
 
