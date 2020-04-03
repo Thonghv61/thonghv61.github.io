@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+  img {
+	display: block;
+  }
+  body {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+  }
+  .container {
+	width: 100%;
+  }
+  .content a{
+	position: absolute;
+  }
+  div {
+	width: 100%;
+  }
+  .text {
+	position: absolute;
+	list-style: none;
+  }
+  .content__btn__1 , .content__btn__2, .content__btn__face, .content__text__1, .content__text__2, .content__text__3 {
+	position: relative;
+  }
+  .content__text__1 > .text {
+	width: 31.25%;
+	bottom: 7%;
+	left: 35%;
+	color: #4d6eb1;
+	font-weight: bold;
+  }
+  .content__text__2 > .text {
+	width: 52%;
+	bottom: 5%;
+	left: 24%;
+	color: #21498f;
+  }
+  .content__text__1 > .text, .content__text__2 > .text {
+	text-align: center;
+  }
+  .content__text__3 > .text {
+	font-size: 14px;
+	width: 17%;
+	top: 30%;
+	left: 18%;
+  }
+  .content__text__3 > .--postision__case2 {
+	left: 53%;
+	width: 14%;
+  }
+  .content__text__3 > .--postision__case3 {
+	top: 71%;
+	width: 19%;
+  }
+  .content__text__3 > .--postision__case4 {
+	top: 71%;
+	left: 53%;
+	width: 21.5%;
+  }
+  .content__btn__1 a {
+	top: 14%;
+  }
+  #qr-2 {
+	left: 50.8%; 
+  }
+  #qr-1 {
+	left: 12.6%;
+  }
+  .content__btn__2 a {
+	bottom: 11%;
+  }
+  #qr-3 {
+	left: 24%;
+  }
+  #qr-4 {
+	right: 23.5%;
+  }
+  #qr-5 {
+	top: 14%;
+	left: 29.2%;
+  }
+  @media only screen and (max-width:640px) {
+	body {
+	  max-width: 640px;
+	}
+	li {
+	  display: inline;
+	}
+	#qr-1 {
+	  left: 6%;
+	}
+	#qr-2 {
+	  left: 51.8%;
+	}
+	.content__btn__2 a {
+	  left: 9%;
+	}
+	#qr-4 {
+	  bottom: 4.7%;
+	}
+	#qr-3 {
+	  top: 36.5%;
+	  left: 9%;
+	}
+	#qr-5 {
+	  top: 12%;
+	  left: 6%;
+	}
+	.content__text__1 > .text, .content__text__2 > .text {
+	  width: 80%;
+	  left: 10%;
+	}
+	.content__text__3 > .text {
+	  font-size: 20px;
+	  width: 37%;
+	  top: 14%;
+	  left: 18%;
+	  font-weight: bold;
+	}
+	.content__text__3 > .--postision__case2 {
+	  left: 47%;
+	  width: 34%;
+	  top: 39%;
+	}
+	.content__text__3 > .--postision__case3 {
+	  top: 61%;
+	  width: 38%;
+	}
+	.content__text__3 > .--postision__case4 {
+	  top: 85%;
+	  left: 47%;
+	}
+  }
