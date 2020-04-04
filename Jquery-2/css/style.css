@@ -58,6 +58,9 @@ table {
   height: 600px;
   margin: 0 auto;
 }
+li {
+  margin-left: 5px;
+}
 
 .slide {
   position: absolute;

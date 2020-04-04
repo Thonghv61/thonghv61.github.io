@@ -64,7 +64,7 @@ $(document).ready(function () {
 		setTimeout(function () {
 			container.css('pointer-events', 'auto');
 		}, 1000);
-	}
+	}	
 
 	function autoSlide() {
 		var autoPlay  = setInterval(function () {nextClick();}, 3000); // Slide to next image in 3s

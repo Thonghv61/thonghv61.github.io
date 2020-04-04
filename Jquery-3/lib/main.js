@@ -14,10 +14,13 @@ $(document).ready(function () {
 
 //function set effects for leaves
 function leavesFall(leaves) {
-	TweenMax.set($(leaves), {attr:{class:'leaves'},x:50,y:-10});
-	TweenMax.to($(leaves), 6* Math.random() + 6,{y:900,ease:Linear.easeNone,repeat:-1,delay:-15});
-	TweenMax.to($(leaves), 5*Math.random() + 5,{x:'+=50',rotationZ:180*Math.random()});
-	TweenMax.to($(leaves), 4*Math.random() + 4,{rotationX:360*Math.random(),rotationY:360*Math.random()});
+
+	TweenMax.set($(leaves), {attr:{class:'leaves'},x:Math.random() + 200,y:0,z:600*Math.random()});
+	TweenMax.to($(leaves), 9*Math.random() + 6,{y:900,ease:Linear.easeNone,repeat:-1,delay:-15});
+	TweenMax.to($(leaves), 5*Math.random() + 5,{x:'+=50',rotationZ:180*Math.random(),repeat:-1,yoyo:true,ease:Sine.easeInOut});
+	TweenMax.to($(leaves), 4*Math.random() + 4,{rotationX:360*Math.random(),rotationY:360*Math.random(),repeat:-1,yoyo:true,ease:Sine.easeInOut,delay:-1});
+	
+	
 }
 
 
