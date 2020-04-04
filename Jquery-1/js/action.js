@@ -44,7 +44,7 @@ $(document).ready(function () {
 		var parent = $(this).parent().parent();
 		imgOn.css('pointer-events', 'none');
 		imgOff.css('pointer-events', 'none');
-		parent.find(popup).animate({top: '100px'}, 1000).show();
+		popup.animate({top: '100px'}, 1000).show();
 	});
 
 	// Set CSS the popup when user click on image Close

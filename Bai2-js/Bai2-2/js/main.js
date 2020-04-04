@@ -133,6 +133,7 @@ $(document).ready(function () {
 
 		if (value == '') {
 			if (thisRow.children().get(2) == undefined) {
+				// document.getElementById("username").textContent += "User Name must not be empty.";
 				thisRow.append("<td class='validate'>" + title + " must not be empty.</td>");
 			} else {
 				thisRow.children().get(2).remove();
